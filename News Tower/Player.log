@@ -1,0 +1,2084 @@
+Mono path[0] = 'D:/下載/compress/News.Tower.v0.17.85r/News.Tower.v0.17.85r/News Tower_Data/Managed'
+Mono config path = 'D:/下載/compress/News.Tower.v0.17.85r/News.Tower.v0.17.85r/MonoBleedingEdge/etc'
+Fallback handler could not load library D:/下載/compress/News.Tower.v0.17.85r/News.Tower.v0.17.85r/News Tower_Data/MonoBleedingEdge/data-000001EB20A7A0C0.dll
+Fallback handler could not load library D:/下載/compress/News.Tower.v0.17.85r/News.Tower.v0.17.85r/News Tower_Data/MonoBleedingEdge/data-000001EB26975040.dll
+Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
+[Subsystems] Discovering subsystems at path D:/下載/compress/News.Tower.v0.17.85r/News.Tower.v0.17.85r/News Tower_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8059 MB
+    Driver:   32.0.15.6094
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.275 seconds
+[Message:   BepInEx] BepInEx 5.4.21.0 - News Tower (2024/2/13 下午 01:20:46)
+[Info   :   BepInEx] Running under Unity v2021.3.29.2116973
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 2 plugins to load
+[Info   :   BepInEx] Loading [XUnity Auto Translator 5.4.0]
+OnLevelWasLoaded was found on AutoTranslationPlugin
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+[Debug  :XUnity.AutoTranslator] Screen resolution determine to be: 304x201
+[Info   :XUnity.AutoTranslator] Version of TextMesh Pro: 1.4.0.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.UI.Text.set_text through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked UnityEngine.UI.Text.OnEnable through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TextMeshProUGUI.OnEnable through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TextMeshPro.OnEnable through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.set_text through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetText through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetText through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetText through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetCharArray through Harmony hooks.
+[Debug  :XUnity.AutoTranslator] Hooked TMPro.TMP_Text.SetCharArray through Harmony hooks.
+[Warning:  HarmonyX] AccessTools.Method: Could not find method for type TMPro.TMP_Text and name SetCharArray and parameters (int[], int, int)
+[Warning:XUnity.AutoTranslator] Could not hook 'TMP_Text_SetCharArray_Hook3'. Likely due differences between different versions of the engine or text framework.
+[Debug  :XUnity.AutoTranslator] Disabling certificate checks for endpoints because of configuration.
+[Debug  :XUnity.AutoTranslator] Probing whether OnLevelWasLoaded or SceneManager is supported in this version of Unity. Any warnings related to OnLevelWasLoaded coming from Unity can safely be ignored.
+[Debug  :XUnity.AutoTranslator] SceneManager is supported in this version of Unity.
+[Info   :XUnity.AutoTranslator] Attempting to load TextMesh Pro font from asset bundle.
+Upgrading font asset [ARIALUNI SDF] to version 1.1.0.
+[Info   :XUnity.AutoTranslator] Loaded TextMesh Pro font uses version: 1.1.0
+[Warning:XUnity.AutoTranslator] TextMesh Pro version mismatch. Font asset version: 1.1.0, TextMesh Pro version: 1.4.0
+[Info   :XUnity.AutoTranslator] Loaded fallback font for TextMesh Pro: arialuni_sdf_u2018
+[Debug  :XUnity.AutoTranslator] Loaded resize command text files.
+[Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
+[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.02 seconds)
+[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
+[Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
+[Info   :XUnity.AutoTranslator] Loaded XUnity.AutoTranslator into Unity [2021.3.29f1] game.
+[Info   :   BepInEx] Loading [XUnity Resource Redirector 2.1.0]
+[Message:   BepInEx] Chainloader startup complete
+<RI> Initializing input.
+New input system (experimental) initialized
+Using XInput
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.637800 ms
+[STEAM] Before init
+[Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
+0.17.85.r min: 0.18.83
+0.17.85.r min: 0.18.105
+0.17.85.r max: 0.9.3
+0.17.85.r max: 0.13
+0.17.85.r max: 0.17
+Settigns manager timeout, proceeding...
+[FMOD] Please add an 'FMOD Studio Listener' component to your a camera in the scene for correct 3D positioning of sounds.
+Awaiting Steam initialization...
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object 'Item Compose') is missing!
+The referenced script on this Behaviour (Game Object 'Story Skill Requirement Display') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 12)
+UnloadTime: 4.407900 ms
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+[Info   :XUnity.AutoTranslator] Attempting to load TextMesh Pro font from asset bundle.
+The AssetBundle 'D:\下載\compress\News.Tower.v0.17.85r\News.Tower.v0.17.85r\arialuni_sdf_u2018' can't be loaded because another AssetBundle with the same files is already loaded.
+[Warning:XUnity.AutoTranslator] Could not load asset bundle while loading font: D:\下載\compress\News.Tower.v0.17.85r\News.Tower.v0.17.85r\arialuni_sdf_u2018
+Control scheme changed: Keyboard and Mouse(<Keyboard>,<Mouse>,<Pen>)
+Unloading 976 unused Assets to reduce memory usage. Loaded Objects now: 30840.
+Total: 29.494700 ms (FindLiveObjects: 2.343500 ms CreateObjectMapping: 1.644200 ms MarkObjects: 23.969300 ms  DeleteObjects: 1.536800 ms)
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+OutsideUIClickEventRaiser has no target
+POINTER DEVICE CHANGE: Mouse
+Set mode to IntroMenu
+Last environment 745e634a735a444d881d3c2455ce0a44
+No switch
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+Base shuffle group: 2
+Request https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg
+Handling https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg
+Loaded https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg from file cache
+Set mode to NoMusic
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Lobby Marker') is missing!
+The referenced script on this Behaviour (Game Object 'Van Anden Spawn Point') is missing!
+The referenced script on this Behaviour (Game Object 'Press Room Marker') is missing!
+The referenced script on this Behaviour (Game Object 'Compositing Room Marker') is missing!
+The referenced script on this Behaviour (Game Object 'News Room Marker') is missing!
+The referenced script on this Behaviour (Game Object 'Full Interior Marker') is missing!
+The referenced script on this Behaviour (Game Object 'Typesetting Room Marker') is missing!
+The referenced script on this Behaviour (Game Object 'Van Anden Painting') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (1)') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (1)') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (3)') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (3)') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (2)') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (2)') is missing!
+Unloading 1 Unused Serialized files (Serialized files now loaded: 12)
+UnloadTime: 30.539400 ms
+Floor count: 2, total added floors: 0, initial floors: 2
+Adding area map in coreloop callback
+Area map in core loop unlocked: False
+Confirm button enable
+No perception change audio clip found. Will not play audio when changing perception side
+No perception change audio clip found. Will not play audio when changing perception side
+Confirm button disable
+[Debugger] - Online
+[Debugger] - Activating debug modules on play...
+[DebugModuleDrawObjectDebugInfo] - Drawing debuggable object gizmos...
+Debug modules can be managed in the --[DEBUG]-- object.
+[DebugModuleGraphPositionDrawer] - Drawing graph positions...
+Debug modules can be managed in the --[DEBUG]-- object.
+[DebugModuleTowerEdgeDrawer] - Drawing tower edge gizmos...
+Debug modules can be managed in the --[DEBUG]-- object.
+Unloading 690 unused Assets to reduce memory usage. Loaded Objects now: 79587.
+Total: 60.915700 ms (FindLiveObjects: 7.807300 ms CreateObjectMapping: 6.206800 ms MarkObjects: 45.790000 ms  DeleteObjects: 1.110800 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Loaded 216 mutable content word lists.
+Loaded 37 story file quotes
+Loaded 6 year labels
+Loaded 65 period labels
+Loaded 55 tag quotes
+KERNEL RESIZE!
+KERNEL RESIZE!
+Loaded 12 traits
+Loading game with header info:
+{"newspaperName":"反共日報","gameSessionCount":3,"totalPlaytimeSeconds":10502.815899010748,"newspaperEditions":29,"coreloopCount":29,"subscriberCount":2000,"towerTime":{"ticks":233716597474},"applicationVersion":"0.17.85.r","gameSessionId":"0861c1a2-0383-4287-a16d-6c0289a0c9ef","isAutoSave":false,"savedDuringCoreloop":false,"displayName":"反共日報","gameModeGuid":"9f840fbe7d9554f1787b8a7c210d9105","wasSavedInEndless":false,"dataFlags":1,"gameDataSerializer":0}
+Load root count: 188
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: ' to follow the latest updates or to give us your feedback. Thank you for being part of this!'
+[Error  :XUnity.AutoTranslator] Failed: '2.9 hours'
+[Error  :XUnity.AutoTranslator] Failed: 'Mar 1932'
+[Error  :XUnity.AutoTranslator] Failed: 'Feb 1932'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Added from load game, macro InstructorFramework.Macros.HintStashTabInstructorMacro
+Added from load game, macro InstructorFramework.Macros.MaximizeSalesHintMacro
+Added from load game, macro InstructorFramework.Macros.OldNewsHintMacro
+Added from load game, macro InstructorFramework.Macros.ExplainPerceptionTagMacro
+Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
+Added from load game, macro InstructorFramework.Macros.ExplainPerceptionSlotMacro
+Added from load game, macro InstructorFramework.Macros.ExplainNewspaperPriceMacro
+Added from load game, macro InstructorFramework.Macros.ExplainPerceptionPrognosisMacro
+Added from load game, macro Macros.GuideInstructorMacro
+Added from load game, macro Macros.GuideInstructorMacro
+Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
+Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
+Added from load game, macro Macros.GuideInstructorMacro
+Added from load game, macro Macros.GuideInstructorMacro
+Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
+Added from load game, macro InstructorFramework.Macros.ExplainPerceptionPrognosisMacro2
+Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
+Added from load game, macro InstructorFramework.Macros.ExplainAdsInRecapMacro
+Added from load game, macro InstructorFramework.Macros.ExplainPerceptionStoryFileMacro
+Added from load game, macro InstructorFramework.Macros.ToolTipSuspenderMacro
+Added from load game, macro InstructorFramework.Macros.ExplainStretchInstructorMacro
+Added from load game, macro InstructorFramework.Macros.ToolTipSuspenderMacro
+Added from load game, macro InstructorFramework.Macros.ExpandWorkforceOnPageModuleHintMacro
+Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
+Added from load game, macro InstructorFramework.Macros.ExplainTeasedSkillStoryFileMacro
+Added from load game, macro Macros.GuideInstructorMacro
+Added from load game, macro Macros.AdInjectMacro
+Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
+Added from load game, macro InstructorFramework.Macros.ExplainTeasedSkillStoryFileMacro
+Added from load game, macro Macros.GuideInstructorMacro
+Added from load game, macro InstructorFramework.Macros.OrderResourcesInstructorMacro
+Added from load game, macro InstructorFramework.Macros.ToolTipSuspenderMacro
+Added from load game, macro InstructorFramework.Macros.ToolTipSuspenderMacro
+Added from load game, macro InstructorFramework.Macros.ExplainDismissMacro
+Added from load game, macro InstructorFramework.Macros.SecondPagePrintBoardHintMacro
+Added from load game, macro InstructorFramework.Macros.PowerFailInstructorMacro
+Added from load game, macro Macros.GuideInstructorMacro
+Added from load game, macro InstructorFramework.Macros.ExplainEditorBoxMacro
+Added from load game, macro InstructorFramework.Macros.ToolTipSuspenderMacro
+Added from load game, macro Macros.GuideInstructorMacro
+Added from load game, macro InstructorFramework.Macros.ExplainTeasedSkillStoryFileMacro
+Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
+Added from load game, macro InstructorFramework.Macros.ToolTipSuspenderMacro
+Added from load game, macro InstructorFramework.Macros.ToolTipSuspenderMacro
+Added from load game, macro InstructorFramework.Macros.HintAutoResourceOrderInstructorMacro
+Added from load game, macro InstructorFramework.Macros.HintAutoResourceOrderInstructorMacro
+Added from load game, macro InstructorFramework.Macros.HintAutoResourceOrderInstructorMacro
+Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
+Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
+Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
+Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
+AutoSave event at Sunday 23:59, March 1932
+LastChanceToPrintEvent at Sunday 23:59, March 1932
+EndOfMonthEvent at Sunday 23:59, March 1932
+BAR ASSIGN
+Area map in core loop unlocked: True
+Initialized TowerTime at Tuesday 04:37, March 1932
+PRINT WINDOW END EVENT LOADED
+*** Something is modulating node state from a state change callback, this is not allowed
+*** APPLYING ALL BUILDABLES ***
+Loaded game has tower score entries!
+Set game shuffle from: NoMusic to Newstower11_Low
+Set mode to GameShuffle
+Confirm button enable
+Confirm button disable
+Break chain fallback
+Story file completed at Tuesday 06:40, March 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+Story file completed at Wednesday 03:44, March 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Story file completed at Wednesday 08:35, March 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Spawned reportableHoover Signs the Economy Act at Wednesday 11:25, March 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Story file completed at Thursday 06:20, March 1932
+Story file completed at Thursday 06:25, March 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Set game shuffle from: Newstower11_Low to Newstower11_Mid
+Spawned reportableOptimistic Economic Vision at Thursday 14:38, March 1932
+Spawned reportableSlum clearance project at Friday 02:01, March 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Story file completed at Saturday 01:05, March 1932
+Story file completed at Saturday 02:46, March 1932
+Spawned reportableStellar Season Culminates in NFL Glory at Saturday 07:40, March 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Already auto saved for period March 1932
+Handling success sequence 29
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, April 1932
+EndOfMonthEvent at Sunday 23:59, April 1932
+Content Bulk: Released 0 items of unused content
+World news count: 0
+KEEPING QUEST _Game.Quests.HotTopicsQuest
+Quest fail consequence!
+STOPPING QUEST _Game.Quests.Composed.ComposedQuest
+Finalize prev week quest
+Starting content matrix algorithm...
+Loading content bulk...
+Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Rewarding 15000 of Sales
+Rewarding 0 of Influence Points
+Rewarding 3250 of Money
+Paying monthly expense for March 1932: -2475
+Awaiting content matrix algorithm result...
+RECAP DEACTIVATE
+Awaiting content slices...
+Content Matrix took 46700ms. Details:
+Slices: 36
+Bulk:Total bulk size 596 items
+Reportables.NewsItemData size 485 items
+Reportables.Data.AdData size 111 items
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+Confirm button enable
+Start Playback
+End Playback
+Paying out entry!
+Map reward payout, buildable unlock: Day Planner Unlock Pair (Stock: -1, Unlock Mode: Set)
+IAreaMapRecapEnd
+Setting pending quest at row 2
+Setting pending quest at row 1
+Content Bulk: Released 596 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower11_Mid to Newstower8_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, April 1932 end: Sunday 23:59, April 1932
+LastChanceToPrintEvent at Sunday 23:59, April 1932
+AutoSave event at Sunday 23:59, April 1932
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Mobster/Protester appeared, count 1
+Playing RIT Protester Audio
+Mobster/Protester appeared, count 2
+Mobster/Protester appeared, count 3
+Mobster/Protester appeared, count 4
+Mobster/Protester appeared, count 5
+Mobster/Protester appeared, count 6
+Mobster/Protester appeared, count 7
+Mobster/Protester appeared, count 8
+Mobster/Protester appeared, count 9
+Finalize complete
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Story file completed at Tuesday 06:44, April 1932
+Story file completed at Tuesday 08:24, April 1932
+Break chain fallback
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Spawned reportable{entertainmentAllMediums} Scandal at Tuesday 15:26, April 1932
+Stopped Playing RIT Protester Audio
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Finalize complete
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Story file completed at Wednesday 12:37, April 1932
+Story file completed at Wednesday 13:14, April 1932
+Story file completed at Thursday 00:08, April 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Set game shuffle from: Newstower8_Low to Newstower8_Mid
+Spawned reportableFormer Sheriff Dead at Thursday 15:12, April 1932
+Finalize complete
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+User chose PLANE
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Saturday 00:37, April 1932
+Spawned reportableHistoric Education Reform Enacted at Saturday 09:26, April 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Story file completed at Sunday 16:30, April 1932
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON LAST CHANCE TO PRINT
+Last chance window begin
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Already auto saved for period April 1932
+ON WINDOW END
+Handling success sequence 30
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, May 1932
+EndOfMonthEvent at Sunday 23:59, May 1932
+Content Bulk: Released 1 items of unused content
+World news count: 1
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+No fail consequence!
+STOPPING QUEST _Game.Quests.Composed.ComposedQuest
+Finalize prev week quest
+Starting content matrix algorithm...
+Loading content bulk...
+Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Awaiting content slices...
+Rewarding 12100 of Sales
+Rewarding 2 of Influence Points
+Rewarding 1815 of Money
+Paying monthly expense for April 1932: -2555
+Awaiting content matrix algorithm result...
+Content Matrix took 15124ms. Details:
+Slices: 34
+Bulk:Total bulk size 597 items
+Reportables.NewsItemData size 486 items
+Reportables.Data.AdData size 111 items
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: 'Sometimes, when I shave, I'll feel like I have more to give to my fellow Americans. Really help the country, you know.'
+[Error  :XUnity.AutoTranslator] Failed: 'I got some state wide ideas!'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+IAreaMapRecapEnd
+Setting pending quest at row 2
+Setting pending quest at row 1
+Content Bulk: Released 597 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower8_Mid to Newstower3_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, May 1932 end: Sunday 23:59, May 1932
+LastChanceToPrintEvent at Sunday 23:59, May 1932
+AutoSave event at Sunday 23:59, May 1932
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Confirm button disable
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Confirm button enable
+Confirm button disable
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: True
+MACRO UNLOADED: Explain Tease Photographer StoryFile
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+Story file completed at Monday 17:18, May 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Spawned reportableUnlawful {crimeEventDescription} {statistics} at Wednesday 02:53, May 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Spawned reportableWe Want Beer! - Parade at Wednesday 17:44, May 1932
+Spawned reportableLindbergh Kidnapped Baby Found at Wednesday 20:19, May 1932
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: 'LINDBERGH KIDNAPPED BABY FOUND'
+[Error  :XUnity.AutoTranslator] Failed: 'WE WANT BEER! - PARADE'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+Story file completed at Wednesday 21:52, May 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Mobster/Protester appeared, count 1
+Playing RIT Protester Audio
+Mobster/Protester appeared, count 2
+Mobster/Protester appeared, count 3
+Mobster/Protester appeared, count 4
+Mobster/Protester appeared, count 5
+Mobster/Protester appeared, count 6
+Mobster/Protester appeared, count 7
+Mobster/Protester appeared, count 8
+Mobster/Protester appeared, count 9
+Mobster/Protester appeared, count 10
+Mobster/Protester appeared, count 11
+Mobster/Protester appeared, count 12
+Mobster/Protester appeared, count 13
+Mobster/Protester appeared, count 14
+Mobster/Protester appeared, count 15
+Mobster/Protester appeared, count 16
+Mobster/Protester appeared, count 17
+Mobster/Protester appeared, count 18
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: True
+MACRO UNLOADED: Explain Tease Illustrator StoryFile
+Set game shuffle from: Newstower3_Low to Newstower3_Mid
+Story file completed at Thursday 13:57, May 1932
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+Story file completed at Thursday 16:13, May 1932
+Story file completed at Friday 02:43, May 1932
+Not matching path anymore since we already arrived
+Stopped Playing RIT Protester Audio
+Spawned reportableMore Broadway More Money at Saturday 20:01, May 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Already auto saved for period May 1932
+Handling success sequence 31
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, June 1932
+EndOfMonthEvent at Sunday 23:59, June 1932
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+No fail consequence!
+STOPPING QUEST _Game.Quests.Composed.ComposedQuest
+Finalize prev week quest
+Starting content matrix algorithm...
+Loading content bulk...
+Awaiting content slices...
+Content Matrix took 15092ms. Details:
+Slices: 34
+Bulk:Total bulk size 600 items
+Reportables.NewsItemData size 489 items
+Reportables.Data.AdData size 111 items
+Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Rewarding 15700 of Sales
+Rewarding 0 of Influence Points
+Rewarding 2355 of Money
+Paying monthly expense for May 1932: -2630
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: 'My mother used to always make me two pastrami sandwiches for school. I would eat one and use the other to bribe my classmates.'
+[Error  :XUnity.AutoTranslator] Failed: 'The truth never accomplished anything'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+IAreaMapRecapEnd
+Setting pending quest at row 2
+Setting pending quest at row 1
+Content Bulk: Released 600 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower3_Mid to Newstower11_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, June 1932 end: Sunday 23:59, June 1932
+LastChanceToPrintEvent at Sunday 23:59, June 1932
+AutoSave event at Sunday 23:59, June 1932
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+Story file completed at Monday 18:10, June 1932
+Story file completed at Tuesday 00:39, June 1932
+Spawned reportableGangland Bloodbath Rocks City Streets at Tuesday 11:54, June 1932
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Story file completed at Wednesday 14:57, June 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Story file completed at Thursday 04:11, June 1932
+Story file completed at Thursday 06:55, June 1932
+Spawned reportableCharleston Chasers Quitting at Thursday 10:44, June 1932
+Set game shuffle from: Newstower11_Low to Newstower11_Mid
+User chose BOAT
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Spawned reportableThree Day Morelli Trial at Thursday 20:34, June 1932
+Finalize complete
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: 'SAYS MAYOR JIMMY WALKER'
+[Error  :XUnity.AutoTranslator] Failed: '" DRY PARTY AIN'T NO FUN PARTY!"'
+[Error  :XUnity.AutoTranslator] Failed: 'BEER! - PARAD'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Mobster/Protester appeared, count 1
+Mobster/Protester appeared, count 2
+Mobster/Protester appeared, count 3
+Mobster/Protester appeared, count 4
+Mobster/Protester appeared, count 5
+Curl error 52: Empty reply from server
+Finalize complete
+Story file completed at Friday 08:27, June 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+Story file completed at Friday 17:37, June 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+[Error  :XUnity.AutoTranslator] Error occurred during translation.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at GoogleTranslate.GoogleTranslateEndpointV2.OnExtractTranslation (XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.IHttpTranslationExtractionContext context) [0x000bf] in <adc0da425f9049789dbdd80beb361e23>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.HttpEndpoint+<Translate>d__13.MoveNext () [0x0018a] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.TranslationEndpointManager+<Translate>d__78.MoveNext () [0x000fd] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+[Error  :XUnity.AutoTranslator] Failed: 'This got personal...'
+[Warning:XUnity.AutoTranslator] Retrying translation for 'This got personal...' against fallback endpoint instead.
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Story file completed at Saturday 07:52, June 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+[Warning:XUnity.AutoTranslator] An error occurred while setting up BingTranslate IG. Proceeding without...
+System.Net.WebException: Error: SecureChannelFailure (Authentication failed because the remote party has closed the transport stream.) ---> System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+  at Mono.Net.Security.AsyncProtocolRequest.ProcessOperation (System.Threading.CancellationToken cancellationToken) [0x00115] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at Mono.Net.Security.AsyncProtocolRequest.StartOperation (System.Threading.CancellationToken cancellationToken) [0x0008b] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at Mono.Net.Security.MobileAuthenticatedStream.ProcessAuthentication (System.Boolean runSynchronously, Mono.Net.Security.MonoSslAuthenticationOptions options, System.Threading.CancellationToken cancellationToken) [0x00262] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at Mono.Net.Security.MonoTlsStream.CreateStream (System.Net.WebConnectionTunnel tunnel, System.Threading.CancellationToken cancellationToken) [0x0016a] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.WebConnection.CreateStream (System.Net.WebOperation operation, System.Boolean reused, System.Threading.CancellationToken cancellationToken) [0x001ba] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.CreateStream (System.Net.WebOperation operation, System.Boolean reused, System.Threading.CancellationToken cancellationToken) [0x0021a] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x00141] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.XUnityWebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.DownloadDataCore (System.Uri address, System.Object userToken) [0x0005c] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.<DownloadStringAsync>b__72_0 (System.Object state) [0x00007] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+Story file completed at Saturday 21:55, June 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Story file completed at Sunday 06:28, June 1932
+Already auto saved for period June 1932
+Handling success sequence 32
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, July 1932
+EndOfMonthEvent at Sunday 23:59, July 1932
+Can't dump because of no dump flag
+Content Bulk: Released 1 items of unused content
+World news count: 1
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+No fail consequence!
+STOPPING QUEST _Game.Quests.Composed.ComposedQuest
+Finalize prev week quest
+Starting content matrix algorithm...
+Loading content bulk...
+[Error  :XUnity.AutoTranslator] Error occurred during translation.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at BingTranslate.BingTranslateEndpoint.OnExtractTranslation (XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.IHttpTranslationExtractionContext context) [0x00015] in <6dd559dabaa442ad811aa138e166b965>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.HttpEndpoint+<Translate>d__13.MoveNext () [0x0018a] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.TranslationEndpointManager+<Translate>d__78.MoveNext () [0x000fd] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+[Error  :XUnity.AutoTranslator] Failed: 'This got personal...'
+Awaiting content slices...
+Content Matrix took 15310ms. Details:
+Slices: 34
+Bulk:Total bulk size 599 items
+Reportables.NewsItemData size 488 items
+Reportables.Data.AdData size 111 items
+Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
+Rewarding 29200 of Sales
+Rewarding 0 of Influence Points
+Rewarding 4380 of Money
+Paying monthly expense for June 1932: -2630
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: 'Prohibition is no good to anyone. Heck, a good alcoholic beverage might even be a solution to all of life’s problems.'
+[Error  :XUnity.AutoTranslator] Failed: 'My mouth is dry enough'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+IAreaMapRecapEnd
+Setting pending quest at row 2
+Setting pending quest at row 1
+Spawned reportableThe company that makes dreams at Monday 00:00, July 1932
+Content Bulk: Released 599 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower11_Mid to Newstower8_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, July 1932 end: Sunday 23:59, July 1932
+LastChanceToPrintEvent at Sunday 23:59, July 1932
+AutoSave event at Sunday 23:59, July 1932
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+[Error  :XUnity.AutoTranslator] Error occurred during translation.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at GoogleTranslate.GoogleTranslateEndpointV2.OnExtractTranslation (XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.IHttpTranslationExtractionContext context) [0x000bf] in <adc0da425f9049789dbdd80beb361e23>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.HttpEndpoint+<Translate>d__13.MoveNext () [0x0018a] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.TranslationEndpointManager+<Translate>d__78.MoveNext () [0x000fd] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+[Error  :XUnity.AutoTranslator] Failed: 'Evelyn Wright'
+[Warning:XUnity.AutoTranslator] Retrying translation for 'Evelyn Wright' against fallback endpoint instead.
+[Error  :XUnity.AutoTranslator] Error occurred during translation.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at BingTranslate.BingTranslateEndpoint.OnExtractTranslation (XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.IHttpTranslationExtractionContext context) [0x00015] in <6dd559dabaa442ad811aa138e166b965>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.HttpEndpoint+<Translate>d__13.MoveNext () [0x0018a] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.TranslationEndpointManager+<Translate>d__78.MoveNext () [0x000fd] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+[Error  :XUnity.AutoTranslator] Failed: 'Evelyn Wright'
+Spawned reportableGames of the X Olympiad at Monday 06:32, July 1932
+Story file completed at Monday 06:51, July 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Spawned reportable30 Giant years at Monday 13:26, July 1932
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+Story file completed at Monday 18:41, July 1932
+Story file completed at Tuesday 01:35, July 1932
+Story file completed at Tuesday 04:13, July 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Confirm button enable
+Confirm button disable
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://www.bing.com:443' due to inactivity.
+Story file completed at Wednesday 03:41, July 1932
+Story file completed at Wednesday 19:08, July 1932
+Spawned reportableDemocratic National Convention at Thursday 00:27, July 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Set game shuffle from: Newstower8_Low to Newstower8_Mid
+Story file completed at Thursday 14:42, July 1932
+Story file completed at Thursday 18:09, July 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Story file completed at Sunday 08:53, July 1932
+Already auto saved for period July 1932
+Handling success sequence 33
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, August 1932
+EndOfMonthEvent at Sunday 23:59, August 1932
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+STOPPING QUEST _Game.Quests.Composed.ComposedQuest
+Finalize prev week quest
+Starting content matrix algorithm...
+Loading content bulk...
+Awaiting content slices...
+Content Matrix took 15726ms. Details:
+Slices: 51
+Bulk:Total bulk size 599 items
+Reportables.NewsItemData size 488 items
+Reportables.Data.AdData size 111 items
+Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Rewarding 18200 of Sales
+Rewarding 0 of Influence Points
+Rewarding 2730 of Money
+Paying monthly expense for July 1932: -2630
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+[Error  :XUnity.AutoTranslator] Error occurred during translation.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at GoogleTranslate.GoogleTranslateEndpointV2.OnExtractTranslation (XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.IHttpTranslationExtractionContext context) [0x000bf] in <adc0da425f9049789dbdd80beb361e23>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.HttpEndpoint+<Translate>d__13.MoveNext () [0x0018a] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.TranslationEndpointManager+<Translate>d__78.MoveNext () [0x000fd] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+[Error  :XUnity.AutoTranslator] Failed: 'Marcal Paper Plant'
+[Warning:XUnity.AutoTranslator] Retrying translation for 'Marcal Paper Plant' against fallback endpoint instead.
+[Error  :XUnity.AutoTranslator] Error occurred during translation.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at BingTranslate.BingTranslateEndpoint.OnExtractTranslation (XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.IHttpTranslationExtractionContext context) [0x00015] in <6dd559dabaa442ad811aa138e166b965>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.HttpEndpoint+<Translate>d__13.MoveNext () [0x0018a] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.TranslationEndpointManager+<Translate>d__78.MoveNext () [0x000fd] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+[Error  :XUnity.AutoTranslator] Failed: 'Marcal Paper Plant'
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: 'Some people call competition healthy. You wanna know what I think of that shit?'
+[Error  :XUnity.AutoTranslator] Failed: 'Too many fish in a small pond'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+IAreaMapRecapEnd
+Setting pending quest at row 2
+Setting pending quest at row 1
+Content Bulk: Released 599 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower8_Mid to Newstower3_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, August 1932 end: Sunday 23:59, August 1932
+LastChanceToPrintEvent at Sunday 23:59, August 1932
+AutoSave event at Sunday 23:59, August 1932
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Spawned reportable{politicsEventDescription} {politicsGroup} Shows Influence at Monday 03:08, August 1932
+Spawned reportableFunds Mysteriously Vanished at Monday 06:32, August 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://www.bing.com:443' due to inactivity.
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+Story file completed at Monday 21:19, August 1932
+Story file completed at Tuesday 03:23, August 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Set game shuffle from: Newstower3_Low to Newstower3_Mid
+Spawned reportableSubway Fare Freeze at Thursday 16:24, August 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Spawned reportableGridlock Grips Gotham at Thursday 23:42, August 1932
+Story file completed at Friday 11:44, August 1932
+Finalize complete
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Already auto saved for period August 1932
+Handling success sequence 34
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, September 1932
+EndOfMonthEvent at Sunday 23:59, September 1932
+Content Bulk: Released 1 items of unused content
+World news count: 1
+KEEPING QUEST _Game.Quests.HotTopicsQuest
+No fail consequence!
+STOPPING QUEST _Game.Quests.Composed.ComposedQuest
+Finalize prev week quest
+Starting content matrix algorithm...
+Loading content bulk...
+Awaiting content slices...
+Content Matrix took 14809ms. Details:
+Slices: 36
+Bulk:Total bulk size 591 items
+Reportables.NewsItemData size 480 items
+Reportables.Data.AdData size 111 items
+Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
+Rewarding 15700 of Sales
+Rewarding 0 of Influence Points
+Rewarding 9855 of Money
+Paying monthly expense for August 1932: -2630
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Content Bulk: Released 591 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower3_Mid to Newstower11_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, September 1932 end: Sunday 23:59, September 1932
+LastChanceToPrintEvent at Sunday 23:59, September 1932
+AutoSave event at Sunday 23:59, September 1932
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Spawned reportableProhibition Perils: Bootlegging Still Booms at Monday 04:21, September 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Story file completed at Tuesday 00:21, September 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Story file completed at Tuesday 05:28, September 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Story file completed at Tuesday 19:48, September 1932
+Story file completed at Wednesday 00:49, September 1932
+Spawned reportableSteamboat Disaster at Wednesday 01:14, September 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Spawned reportableUnlawful Price Pacts at Wednesday 03:18, September 1932
+Story file completed at Wednesday 04:35, September 1932
+Spawned reportableResource Scarcity Troubling at Wednesday 10:30, September 1932
+Story file completed at Wednesday 16:14, September 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Story file completed at Wednesday 23:01, September 1932
+*** Something is modulating node state from a state change callback, this is not allowed
+Throtlling auto completer for 10 seconds
+Story file completed at Thursday 01:50, September 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Set game shuffle from: Newstower11_Low to Newstower11_Mid
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+**** ChainSimEstimator: Unable to get steps
+Story file completed at Thursday 22:39, September 1932
+Story file completed at Friday 01:38, September 1932
+Story file completed at Friday 05:20, September 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Story file completed at Sunday 00:56, September 1932
+Spawned reportable{entertainmentDescription} {artisticExpression} {show} Tour! at Sunday 07:37, September 1932
+Story file completed at Sunday 08:51, September 1932
+Finalize complete
+Spawned reportableSenator wife sick at Sunday 16:06, September 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON LAST CHANCE TO PRINT
+Last chance window begin
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Already auto saved for period September 1932
+ON WINDOW END
+Handling success sequence 35
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, October 1932
+EndOfMonthEvent at Sunday 23:59, October 1932
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+Starting content matrix algorithm...
+Loading content bulk...
+Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Awaiting content slices...
+Rewarding 29300 of Sales
+Rewarding 3 of Influence Points
+Rewarding 4395 of Money
+Paying monthly expense for September 1932: -2655
+Awaiting content matrix algorithm result...
+RECAP DEACTIVATE
+Content Matrix took 15874ms. Details:
+Slices: 54
+Bulk:Total bulk size 587 items
+Reportables.NewsItemData size 476 items
+Reportables.Data.AdData size 111 items
+Content matrix algorithm finished!
+Perception just got unlocked (for next week)!
+Area Map Recap: DoSequence
+Confirm button enable
+Start Playback
+End Playback
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Content Bulk: Released 587 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower11_Mid to Newstower8_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, October 1932 end: Sunday 23:59, October 1932
+LastChanceToPrintEvent at Sunday 23:59, October 1932
+AutoSave event at Sunday 23:59, October 1932
+Starting perception unlocked cutscene
+Confirm button disable
+Instructor Tower_Stats.Perception.PerceptionCutscene has stopped, success: True
+Perception unlocked cutscene finished
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(NoHud, NoButtons, NoCameraInput, NoSelection, NoObjectives, NoPrintIndicators, IgnoreOutsideClickForDSM, NoUIDragging, NoUIInteraction, NoEmployeeDragging, NoTransportableDragging, NoStatusIcons, NoBuildMove, NoBuildSell, NoBuildInteraction, NoAddFloor, NoEmployeeAssign, NoBuffDisplay, NoGraphIcons, DisableOnPause, NoGuides, NoSave, NoBarStats, NoManualPause, NoManualFastForward, NoShortcuts, DuringInputField, NoClosedRoomIcons, HideAllUIForCapture, Introduction_AllowPause, FullButAllowPause, Introduction_NoPauseNoFFWD, DuringAndAfterZoneMap, DuringRecapScreen, IntroductionNoSave, Full)
+
+[--Handlers--]
+TowerTime:
+()
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Story file completed at Monday 12:16, October 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+Finalize complete
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Set game shuffle from: Newstower8_Low to Newstower8_Mid
+Spawned reportableWelfare Strained in Economic Hardship at Thursday 14:07, October 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Story file completed at Friday 07:47, October 1932
+Story file completed at Friday 10:06, October 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Spawned reportableMIDNIGHT SHOOTOUT at Friday 20:58, October 1932
+Story file completed at Saturday 16:11, October 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Spawned reportableMan found in concrete bridge pillar at Sunday 00:53, October 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Story file completed at Sunday 09:25, October 1932
+Already auto saved for period October 1932
+Handling success sequence 36
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+MACRO UNLOADED: Explain Perception - Prognosis Board
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, November 1932
+EndOfMonthEvent at Sunday 23:59, November 1932
+Content Bulk: Released 1 items of unused content
+World news count: 1
+KEEPING QUEST _Game.Quests.HotTopicsQuest
+ONE WEEK OF PERCEPTION, ACTUALLY GENERATING A KERNEL NOW
+Perception was unlocked at October 1932
+KERNEL RESIZE!
+UNLOCK ALLOW CHANGE NEWSPAPER PRICE
+KERNEL RESIZE!
+TagSource only allows for a max of 7 different tags per source
+Starting content matrix algorithm...
+Loading content bulk...
+Awaiting content slices...
+Content Matrix took 15801ms. Details:
+Slices: 54
+Bulk:Total bulk size 587 items
+Reportables.NewsItemData size 476 items
+Reportables.Data.AdData size 111 items
+User has seen all tooltips
+MACRO UNLOADED: Perception Recap - District Puppets
+User has seen all tooltips
+MACRO UNLOADED: Perception Recap - Puppet Block Receive
+User has seen all tooltips
+MACRO UNLOADED: Perception Recap - Kernel Resize
+Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
+Rewarding 26600 of Sales
+Rewarding 0 of Influence Points
+Rewarding 3990 of Money
+Rewarding -1 of Perception
+Paying monthly expense for October 1932: -2655
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Paying out entry!
+Map reward payout, buildable unlock: Medium Plant Unlock Pair (Stock: -1, Unlock Mode: Set)
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Content Bulk: Released 587 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower8_Mid to Newstower3_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, November 1932 end: Sunday 23:59, November 1932
+LastChanceToPrintEvent at Sunday 23:59, November 1932
+AutoSave event at Sunday 23:59, November 1932
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+KERNEL RESIZE!
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+KERNEL RESIZE!
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Confirm button enable
+Confirm button disable
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: 'Print no Economy this week'
+[Error  :XUnity.AutoTranslator] Failed: 'A serious candidate is in control all the time. We've got to steer the narrative.'
+[Error  :XUnity.AutoTranslator] Failed: 'Control the media, control the mind'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+[Error  :XUnity.AutoTranslator] Error occurred during translation.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at GoogleTranslate.GoogleTranslateEndpointV2.OnExtractTranslation (XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.IHttpTranslationExtractionContext context) [0x000bf] in <adc0da425f9049789dbdd80beb361e23>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.HttpEndpoint+<Translate>d__13.MoveNext () [0x0018a] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.TranslationEndpointManager+<Translate>d__78.MoveNext () [0x000fd] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+[Error  :XUnity.AutoTranslator] Failed: 'I don't want anything written about politics or economy this week, not a single word.'
+[Warning:XUnity.AutoTranslator] Retrying translation for 'I don't want anything written about politics or economy this week, not a single word.' against fallback endpoint instead.
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+Finalize complete
+[Error  :XUnity.AutoTranslator] Error occurred during translation.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: cookies
+  at System.Net.CookieContainer.Add (System.Net.CookieCollection cookies) [0x00003] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at BingTranslate.BingTranslateEndpoint.InspectResponse (XUnity.AutoTranslator.Plugin.Core.Web.XUnityWebResponse response) [0x00007] in <6dd559dabaa442ad811aa138e166b965>:0 
+  at BingTranslate.BingTranslateEndpoint.OnInspectResponse (XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.IHttpResponseInspectionContext context) [0x00007] in <6dd559dabaa442ad811aa138e166b965>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.HttpEndpoint+<Translate>d__13.MoveNext () [0x00139] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.TranslationEndpointManager+<Translate>d__78.MoveNext () [0x000fd] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+[Error  :XUnity.AutoTranslator] Failed: 'I don't want anything written about politics or economy this week, not a single word.'
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://www.bing.com:443' due to inactivity.
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Spawned reportableUnited States Presidential Election Special! at Wednesday 14:30, November 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Spawned reportableWarehouse Blaze Sparks Economic Woes at Wednesday 22:31, November 1932
+Story file completed at Thursday 03:15, November 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Story file completed at Thursday 09:00, November 1932
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Spawned reportable{crimeGoods} Seized By {police} at Thursday 10:12, November 1932
+Set game shuffle from: Newstower3_Low to Newstower3_Mid
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Story file completed at Thursday 17:25, November 1932
+Story file completed at Friday 03:14, November 1932
+Story file completed at Friday 08:43, November 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Finalize complete
+Spawned reportableGravity Standard at Friday 22:11, November 1932
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Story file completed at Sunday 13:18, November 1932
+Already auto saved for period November 1932
+Handling success sequence 37
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+MACRO UNLOADED: Explain Perception 2 - Newspaper Price
+MACRO UNLOADED: Explain Perception 2 - Prognosis Board
+MACRO UNLOADED: Explain Perception 2 - Guide
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, December 1932
+EndOfMonthEvent at Sunday 23:59, December 1932
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+MAKE INACTIVE
+MAKE INACTIVE
+Awaiting content slices...
+Content Matrix took 15010ms. Details:
+Slices: 54
+Bulk:Total bulk size 586 items
+Reportables.NewsItemData size 475 items
+Reportables.Data.AdData size 111 items
+User has seen all tooltips
+MACRO UNLOADED: Perception Recap - Puppet Block Send (To subs)
+Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Rewarding 27100 of Sales
+Rewarding 0 of Influence Points
+Rewarding 4065 of Money
+Rewarding 0 of Perception
+Paying monthly expense for November 1932: -2655
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Content Bulk: Released 586 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower3_Mid to Newstower11_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, December 1932 end: Sunday 23:59, December 1932
+LastChanceToPrintEvent at Sunday 23:59, December 1932
+AutoSave event at Sunday 23:59, December 1932
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Story file completed at Monday 18:36, December 1932
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+Spawned reportable{entertainmentAllMediums} Scandal at Tuesday 01:26, December 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Spawned reportableGANGSTER PAYING FOR OWN CARE at Tuesday 13:57, December 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Story file completed at Tuesday 23:41, December 1932
+Story file completed at Wednesday 01:18, December 1932
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Story file completed at Wednesday 10:28, December 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Story file completed at Thursday 03:21, December 1932
+Spawned reportableBig deal at Thursday 10:37, December 1932
+Set game shuffle from: Newstower11_Low to Newstower11_Mid
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Story file completed at Friday 05:42, December 1932
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Spawned reportable32 baseball players honored at Friday 12:07, December 1932
+**** ChainSimEstimator: Unable to get steps
+Spawned reportableNo handouts! at Friday 15:23, December 1932
+Curl error 35: Handshake failed. UnityTls error code: 7
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: 'LOOKING SAYS; SAN FRANCISCO'S MAYOR'
+[Error  :XUnity.AutoTranslator] Failed: 'OPPORTUNITY WILL ARISE, WHEN'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Finalize complete
+Story file completed at Saturday 13:02, December 1932
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+Story file completed at Saturday 14:27, December 1932
+Spawned reportableLost mine found at Saturday 19:51, December 1932
+Spawned reportableOrganized Crime Rising at Saturday 21:04, December 1932
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Story file completed at Sunday 11:13, December 1932
+Already auto saved for period December 1932
+Handling success sequence 38
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, January 1933
+EndOfMonthEvent at Sunday 23:59, January 1933
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+MAKE INACTIVE
+MAKE INACTIVE
+Awaiting content slices...
+Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
+Content Matrix took 15509ms. Details:
+Slices: 54
+Bulk:Total bulk size 647 items
+Reportables.NewsItemData size 536 items
+Reportables.Data.AdData size 111 items
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Rewarding 24200 of Sales
+Rewarding 2 of Influence Points
+Rewarding 3630 of Money
+Rewarding 0 of Perception
+Paying monthly expense for December 1932: -2730
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Content Bulk: Released 647 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower11_Mid to Newstower8_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, January 1933 end: Sunday 23:59, January 1933
+LastChanceToPrintEvent at Sunday 23:59, January 1933
+AutoSave event at Sunday 23:59, January 1933
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Spawned reportableCRISIS HITS CLUB DUES at Monday 06:18, January 1933
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Story file completed at Monday 19:20, January 1933
+Story file completed at Tuesday 00:03, January 1933
+Spawned reportable{spawnLocation} {mainSport} Unfit at Tuesday 02:52, January 1933
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Story file completed at Tuesday 22:22, January 1933
+Spawned reportablePolice dog rescuer at Wednesday 06:03, January 1933
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Finalize complete
+Story file completed at Thursday 02:49, January 1933
+Finalize complete
+Instructor InstructorFramework.Macros.ExplainPerceptionTagInstructor has stopped, success: True
+MACRO UNLOADED: Explain Perception Drawer
+Set game shuffle from: Newstower8_Low to Newstower8_Mid
+Spawned reportableBoxing {superstar} Stops at Friday 22:13, January 1933
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+[Error  :XUnity.AutoTranslator] Error occurred while retrieving translation.
+System.Net.WebException: Error getting response stream (ReadDoneAsync2): ReceiveFailure
+  at System.Net.WebResponseStream.InitReadAsync (System.Threading.CancellationToken cancellationToken) [0x000f3] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.WebOperation.Run () [0x001d9] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.XUnityWebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadDataCore (System.Uri address, System.String method, System.Byte[] data, System.Object userToken) [0x00036] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadData (System.Uri address, System.String method, System.Byte[] data) [0x0003e] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadString (System.Uri address, System.String method, System.String data) [0x00031] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.<UploadStringAsync>b__127_0 (System.Object state) [0x00007] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+[Error  :XUnity.AutoTranslator] Failed: 'Content that's placed above the fold doubles in value.
+
++ 3000 Sales
++ 2 Influence Points
+'
+[Warning:XUnity.AutoTranslator] Retrying translation for 'Content that's placed above the fold doubles in value.
+
++ 3000 Sales
++ 2 Influence Points
+' against fallback endpoint instead.
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Story file completed at Sunday 01:28, January 1933
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Story file completed at Sunday 06:54, January 1933
+Already auto saved for period January 1933
+Handling success sequence 39
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, February 1933
+EndOfMonthEvent at Sunday 23:59, February 1933
+Content Bulk: Released 1 items of unused content
+World news count: 1
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+[Error  :XUnity.AutoTranslator] Error occurred during translation.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at BingTranslate.BingTranslateEndpoint.OnExtractTranslation (XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.IHttpTranslationExtractionContext context) [0x00015] in <6dd559dabaa442ad811aa138e166b965>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.HttpEndpoint+<Translate>d__13.MoveNext () [0x0018a] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Endpoints.TranslationEndpointManager+<Translate>d__78.MoveNext () [0x000fd] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+[Error  :XUnity.AutoTranslator] Failed: 'Content that's placed above the fold doubles in value.
+
++ 3000 Sales
++ 2 Influence Points
+'
+[Error  :XUnity.AutoTranslator] 5 or more consecutive errors occurred. Shutting down translator endpoint.
+MAKE INACTIVE
+MAKE INACTIVE
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: 'Life is hard. Then you die. Then they throw dirt in your face. Then the worms eat you. Be grateful it happens in that order.'
+[Error  :XUnity.AutoTranslator] Failed: 'They're breaking sports records themselves!'
+[Error  :XUnity.AutoTranslator] Failed: 'FEB 1933'
+[Error  :XUnity.AutoTranslator] Failed: 'AND PURSE IS RESTORED TO MAN OWNER'
+[Error  :XUnity.AutoTranslator] Failed: '"PUP," AIDED BY PATROLMEN, CATCHES "THIEF"'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+Awaiting content slices...
+User has seen all tooltips
+MACRO UNLOADED: Perception Recap - District Puppets 2 (triggered)
+Content Matrix took 15377ms. Details:
+Slices: 51
+Bulk:Total bulk size 644 items
+Reportables.NewsItemData size 533 items
+Reportables.Data.AdData size 111 items
+User has seen all tooltips
+MACRO UNLOADED: Perception Recap - Consecutive Weeks
+Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Rewarding 15700 of Sales
+Rewarding 6 of Influence Points
+Rewarding 2355 of Money
+Rewarding 0 of Perception
+Paying monthly expense for January 1933: -2755
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://www.bing.com:443' due to inactivity.
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Content Bulk: Released 644 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower8_Mid to Newstower3_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, February 1933 end: Sunday 23:59, February 1933
+LastChanceToPrintEvent at Sunday 23:59, February 1933
+AutoSave event at Sunday 23:59, February 1933
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Spawned reportableResource Scarcity Troubling at Monday 06:44, February 1933
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Spawned reportable{societyGenericPerson} Hiking {lost} in {outdoors} at Monday 14:29, February 1933
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+Finalize complete
+Finalize complete
+Story file completed at Monday 22:19, February 1933
+Story file completed at Tuesday 01:38, February 1933
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+[Error  :XUnity.AutoTranslator] Error occurred while retrieving translation.
+System.Net.WebException: Error getting response stream (ReadDoneAsync2): ReceiveFailure
+  at System.Net.WebResponseStream.InitReadAsync (System.Threading.CancellationToken cancellationToken) [0x000f3] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.WebOperation.Run () [0x001d9] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.XUnityWebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadDataCore (System.Uri address, System.String method, System.Byte[] data, System.Object userToken) [0x00036] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadData (System.Uri address, System.String method, System.Byte[] data) [0x0003e] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadString (System.Uri address, System.String method, System.String data) [0x00031] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.<UploadStringAsync>b__127_0 (System.Object state) [0x00007] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+[Error  :XUnity.AutoTranslator] Failed: 'Indianapolis University'
+Story file completed at Wednesday 00:18, February 1933
+Story file completed at Wednesday 00:23, February 1933
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Spawned reportableMayor Anton Cernak of Chicago Dies at Wednesday 07:48, February 1933
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Story file completed at Thursday 00:31, February 1933
+Spawned reportable{societyGenericPerson} {saves} {animal} in the {outdoors} at Thursday 06:50, February 1933
+Set game shuffle from: Newstower3_Low to Newstower3_Mid
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Finalize complete
+Story file completed at Friday 15:57, February 1933
+Story file completed at Friday 16:35, February 1933
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Spawned reportableBoston Braves Coin Toss Loss at Friday 23:10, February 1933
+Spawned reportableOlympic Glory Galvanizes Nation's Spirit and Unity at Friday 23:32, February 1933
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
+Stop instruction debug message: Cannot resolve yield strip in drawer
+Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
+Story file completed at Saturday 18:59, February 1933
+Story file completed at Saturday 20:14, February 1933
+Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: False
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Already auto saved for period February 1933
+Handling success sequence 40
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, March 1933
+EndOfMonthEvent at Sunday 23:59, March 1933
+********** Research finalized but the researcher wasn't researching or index out of bounds. Probably dueto a researcher finishing it's work while the pool was being cleared.Removing researcher!
+Content Bulk: Released 1 items of unused content
+World news count: 1
+KEEPING QUEST _Game.Quests.HotTopicsQuest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+Awaiting content slices...
+Content Matrix took 14477ms. Details:
+Slices: 51
+Bulk:Total bulk size 643 items
+Reportables.NewsItemData size 532 items
+Reportables.Data.AdData size 111 items
+Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
+Rewarding 25700 of Sales
+Rewarding 0 of Influence Points
+Rewarding 3855 of Money
+Rewarding 0 of Perception
+Paying monthly expense for February 1933: -2755
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+Paying out entry!
+Map reward payout, buildable unlock: Coat Hanger Unlock Pair (Stock: -1, Unlock Mode: Set)
+[Error  :XUnity.AutoTranslator] Error occurred while retrieving translation.
+System.Net.WebException: Error getting response stream (ReadDoneAsync2): ReceiveFailure
+  at System.Net.WebResponseStream.InitReadAsync (System.Threading.CancellationToken cancellationToken) [0x000f3] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.WebOperation.Run () [0x001d9] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.XUnityWebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadDataCore (System.Uri address, System.String method, System.Byte[] data, System.Object userToken) [0x00036] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadData (System.Uri address, System.String method, System.Byte[] data) [0x0003e] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadString (System.Uri address, System.String method, System.String data) [0x00031] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.<UploadStringAsync>b__127_0 (System.Object state) [0x00007] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
+[Error  :XUnity.AutoTranslator] Failed: 'Comfort/Noise'
+Paying out entry!
+Map reward payout, buildable unlock: Persian Tapestry Unlock Pair (Stock: -1, Unlock Mode: Set)
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Spawned reportableLips that want to be kissed at Monday 00:00, March 1933
+Content Bulk: Released 643 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower3_Mid to Newstower11_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, March 1933 end: Sunday 23:59, March 1933
+LastChanceToPrintEvent at Sunday 23:59, March 1933
+AutoSave event at Sunday 23:59, March 1933
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Spawned reportableCullen-Harrison Act at Monday 18:52, March 1933
+Set mode to OptionsMenu
+Updated SaveGameManager.DisplayName
+save game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nt
+Set game shuffle from: Newstower11_Low to Newstower8_Low
+Set mode to GameShuffle
+Set mode to OptionsMenu
+Guide unload: inloading bullet macro Build Graphic Chain - Build Repro Cam from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Build Graphic Chain - Assign Repro Cam from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Build Graphic Chain - Build Chemical Engraver from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Build Graphic Chain - Assign Chemical Engraver from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Illustrator - Build Desk from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Illustrator - Assign from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Explain Perception - Newspaper Slot from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Photographer - Build Desk from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Photographer - Assign from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Photographer - Build Darkroom from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Photographer - Assign Darkroom from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Cartographer - Build Desk from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Cartographer - Assign from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Order Coal from guide macro because it wasn't unloaded yet.
+Guide unload: inloading bullet macro Power Fail - Explain And Unlock Generator And Industrial Wallpaper from guide macro because it wasn't unloaded yet.
+Set game shuffle from: Newstower8_Low to Newstower3_Low
+Set mode to GameShuffle
+Set mode to IntroMenu
+Unloading 1 Unused Serialized files (Serialized files now loaded: 12)
+UnloadTime: 459.207600 ms
+Request https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg
+Unloading 6434 unused Assets to reduce memory usage. Loaded Objects now: 78608.
+Total: 128.471200 ms (FindLiveObjects: 8.075500 ms CreateObjectMapping: 12.685800 ms MarkObjects: 93.282600 ms  DeleteObjects: 14.425700 ms)
+
+Handling https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg
+Loaded https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg from file cache
+Setting up 5 worker threads for Enlighten.
+Curl error 42: Callback aborted
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 18443 frames, [1.0 KB-2.0 KB]: 375 frames, [2.0 KB-4.0 KB]: 628 frames, [4.0 KB-8.0 KB]: 7 frames, [8.0 KB-16.0 KB]: 4350 frames, [16.0 KB-32.0 KB]: 52 frames, [32.0 KB-64.0 KB]: 191 frames, [64.0 KB-128.0 KB]: 3 frames, [128.0 KB-256.0 KB]: 61468 frames, [256.0 KB-0.5 MB]: 149427 frames, [0.5 MB-1.0 MB]: 11 frames, [4.0 MB-8.0 MB]: 4 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 7.8 MB
+      Peak Allocated Bytes 7.8 MB
+      Overflow Count 23
+    [ALLOC_TEMP_Job.Worker 18]
+      Initial Block Size 256.0 KB
+      Current Block Size 380.0 KB
+      Peak Allocated Bytes 279.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 0.5 MB
+      Peak Allocated Bytes 511.9 KB
+      Overflow Count 51227019
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 369 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 16]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 99.2 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.7 KB
+      Overflow Count 2
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 94.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 17]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 120.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 100.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 115.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 183 B
+      Overflow Count 0
+    [ALLOC_TEMP_]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 19
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 183 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 113.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_HIDInput]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 10.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 11]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 94.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 21.0 KB
+      Overflow Count 1
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 117.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 113.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 94.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 13]
+      Initial Block Size 256.0 KB
+      Current Block Size 376.0 KB
+      Peak Allocated Bytes 279.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 5
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 1.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 2.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 183 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 35.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 380.0 KB
+      Peak Allocated Bytes 279.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 117.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 115.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 97.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 94.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 15]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 115.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 12]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 109.3 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 92.0 KB
+      Peak Allocated Bytes 88.3 KB
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 21783
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 15 Subsections = 15360 buckets. Failed count: 8076510
+        32B: 22 Subsections = 11264 buckets. Failed count: 5086498
+        48B: 25 Subsections = 8533 buckets. Failed count: 141154584
+        64B: 113 Subsections = 28928 buckets. Failed count: 289902
+        80B: 36 Subsections = 7372 buckets. Failed count: 616554
+        96B: 16 Subsections = 2730 buckets. Failed count: 48214
+        112B: 19 Subsections = 2779 buckets. Failed count: 783227
+        128B: 10 Subsections = 1280 buckets. Failed count: 197551
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 19339 frames, [32.0 MB-64.0 MB]: 2741 frames, [64.0 MB-128.0 MB]: 212621 frames, [128.0 MB-256.0 MB]: 258 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 9
+      Peak Allocated memory 148.3 MB
+      Peak Large allocation bytes 64.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 18404 frames, [32.0 MB-64.0 MB]: 168423 frames, [64.0 MB-128.0 MB]: 36835 frames, [128.0 MB-256.0 MB]: 2881 frames, [256.0 MB-0.50 GB]: 4111 frames, [0.50 GB-1.00 GB]: 4064 frames, [1.00 GB-2.00 GB]: 241 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 75
+      Peak Allocated memory 1.10 GB
+      Peak Large allocation bytes 62.4 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 5
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 7
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 131
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 15 Subsections = 15360 buckets. Failed count: 8076510
+        32B: 22 Subsections = 11264 buckets. Failed count: 5086498
+        48B: 25 Subsections = 8533 buckets. Failed count: 141154584
+        64B: 113 Subsections = 28928 buckets. Failed count: 289902
+        80B: 36 Subsections = 7372 buckets. Failed count: 616554
+        96B: 16 Subsections = 2730 buckets. Failed count: 48214
+        112B: 19 Subsections = 2779 buckets. Failed count: 783227
+        128B: 10 Subsections = 1280 buckets. Failed count: 197551
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 18383 frames, [64.0 KB-128.0 KB]: 68 frames, [128.0 KB-256.0 KB]: 225 frames, [256.0 KB-0.5 MB]: 192 frames, [0.5 MB-1.0 MB]: 635 frames, [1.0 MB-2.0 MB]: 10005 frames, [2.0 MB-4.0 MB]: 175901 frames, [4.0 MB-8.0 MB]: 29550 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 5.2 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 18374 frames, [2.0 MB-4.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 2 frames, [8.0 MB-16.0 MB]: 4 frames, [16.0 MB-32.0 MB]: 6 frames, [128.0 MB-256.0 MB]: 7 frames, [256.0 MB-0.50 GB]: 12 frames, [0.50 GB-1.00 GB]: 15579 frames, [1.00 GB-2.00 GB]: 200974 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 24
+      Peak Allocated memory 1.15 GB
+      Peak Large allocation bytes 0.78 GB
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 2240
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 15 Subsections = 15360 buckets. Failed count: 8076510
+        32B: 22 Subsections = 11264 buckets. Failed count: 5086498
+        48B: 25 Subsections = 8533 buckets. Failed count: 141154584
+        64B: 113 Subsections = 28928 buckets. Failed count: 289902
+        80B: 36 Subsections = 7372 buckets. Failed count: 616554
+        96B: 16 Subsections = 2730 buckets. Failed count: 48214
+        112B: 19 Subsections = 2779 buckets. Failed count: 783227
+        128B: 10 Subsections = 1280 buckets. Failed count: 197551
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 15962 frames, [16.0 MB-32.0 MB]: 215904 frames, [32.0 MB-64.0 MB]: 3093 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 12
+      Peak Allocated memory 45.0 MB
+      Peak Large allocation bytes 7.9 MB
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [256.0 KB-0.5 MB]: 3 frames, [1.0 MB-2.0 MB]: 9 frames, [2.0 MB-4.0 MB]: 2 frames, [32.0 MB-64.0 MB]: 2884 frames, [64.0 MB-128.0 MB]: 4275 frames, [128.0 MB-256.0 MB]: 227786 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 25
+      Peak Allocated memory 224.4 MB
+      Peak Large allocation bytes 154.1 MB
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 15 Subsections = 15360 buckets. Failed count: 8076510
+        32B: 22 Subsections = 11264 buckets. Failed count: 5086498
+        48B: 25 Subsections = 8533 buckets. Failed count: 141154584
+        64B: 113 Subsections = 28928 buckets. Failed count: 289902
+        80B: 36 Subsections = 7372 buckets. Failed count: 616554
+        96B: 16 Subsections = 2730 buckets. Failed count: 48214
+        112B: 19 Subsections = 2779 buckets. Failed count: 783227
+        128B: 10 Subsections = 1280 buckets. Failed count: 197551
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 4765 frames, [256.0 KB-0.5 MB]: 230194 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 291.6 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [1.0 KB-2.0 KB]: 3 frames, [64.0 KB-128.0 KB]: 1 frames, [128.0 KB-256.0 KB]: 6882 frames, [256.0 KB-0.5 MB]: 1 frames, [0.5 MB-1.0 MB]: 3 frames, [1.0 MB-2.0 MB]: 6 frames, [2.0 MB-4.0 MB]: 11323 frames, [4.0 MB-8.0 MB]: 185 frames, [8.0 MB-16.0 MB]: 216555 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 6
+      Peak Allocated memory 10.6 MB
+      Peak Large allocation bytes 0 B
