@@ -1,7 +1,7 @@
 Mono path[0] = 'D:/下載/compress/News.Tower.v0.17.85r/News.Tower.v0.17.85r/News Tower_Data/Managed'
 Mono config path = 'D:/下載/compress/News.Tower.v0.17.85r/News.Tower.v0.17.85r/MonoBleedingEdge/etc'
-Fallback handler could not load library D:/下載/compress/News.Tower.v0.17.85r/News.Tower.v0.17.85r/News Tower_Data/MonoBleedingEdge/data-000002291CD971A0.dll
-Fallback handler could not load library D:/下載/compress/News.Tower.v0.17.85r/News.Tower.v0.17.85r/News Tower_Data/MonoBleedingEdge/data-0000022923A64040.dll
+Fallback handler could not load library D:/下載/compress/News.Tower.v0.17.85r/News.Tower.v0.17.85r/News Tower_Data/MonoBleedingEdge/data-0000022D8674DA30.dll
+Fallback handler could not load library D:/下載/compress/News.Tower.v0.17.85r/News.Tower.v0.17.85r/News Tower_Data/MonoBleedingEdge/data-0000022D8BA65040.dll
 Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
 [Subsystems] Discovering subsystems at path D:/下載/compress/News.Tower.v0.17.85r/News.Tower.v0.17.85r/News Tower_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1; jobified=1
@@ -12,7 +12,7 @@ Direct3D:
     VRAM:     8059 MB
     Driver:   32.0.15.6094
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.314 seconds
+- Completed reload, in  0.363 seconds
 [Message:   BepInEx] BepInEx 5.4.21.0 - News Tower (2024/2/13 下午 01:20:46)
 [Info   :   BepInEx] Running under Unity v2021.3.29.2116973
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
@@ -54,8 +54,8 @@ Upgrading font asset [ARIALUNI SDF] to version 1.1.0.
 [Info   :XUnity.AutoTranslator] Loaded fallback font for TextMesh Pro: arialuni_sdf_u2018
 [Debug  :XUnity.AutoTranslator] Loaded resize command text files.
 [Debug  :XUnity.AutoTranslator] --- Loading Global Translations ---
-[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.06 seconds)
-[Debug  :XUnity.AutoTranslator] Created variation translations (took 0 seconds)
+[Debug  :XUnity.AutoTranslator] Loaded translation text files (took 0.08 seconds)
+[Debug  :XUnity.AutoTranslator] Created variation translations (took -0.01 seconds)
 [Debug  :XUnity.AutoTranslator] Created token translations (took 0 seconds)
 [Info   :XUnity.AutoTranslator] Loaded XUnity.AutoTranslator into Unity [2021.3.29f1] game.
 [Info   :   BepInEx] Loading [XUnity Resource Redirector 2.1.0]
@@ -65,7 +65,7 @@ New input system (experimental) initialized
 Using XInput
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 4.040500 ms
+UnloadTime: 12.397600 ms
 [STEAM] Before init
 [Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
 0.17.85.r min: 0.18.83
@@ -74,19 +74,20 @@ UnloadTime: 4.040500 ms
 0.17.85.r max: 0.13
 0.17.85.r max: 0.17
 Settigns manager timeout, proceeding...
+[FMOD] Please add an 'FMOD Studio Listener' component to your a camera in the scene for correct 3D positioning of sounds.
 Awaiting Steam initialization...
 The referenced script on this Behaviour (Game Object '<null>') is missing!
 The referenced script on this Behaviour (Game Object 'Item Compose') is missing!
 The referenced script on this Behaviour (Game Object 'Story Skill Requirement Display') is missing!
 Unloading 5 Unused Serialized files (Serialized files now loaded: 12)
-UnloadTime: 4.941500 ms
+UnloadTime: 4.931400 ms
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 [Info   :XUnity.AutoTranslator] Attempting to load TextMesh Pro font from asset bundle.
 The AssetBundle 'D:\下載\compress\News.Tower.v0.17.85r\News.Tower.v0.17.85r\arialuni_sdf_u2018' can't be loaded because another AssetBundle with the same files is already loaded.
 [Warning:XUnity.AutoTranslator] Could not load asset bundle while loading font: D:\下載\compress\News.Tower.v0.17.85r\News.Tower.v0.17.85r\arialuni_sdf_u2018
 Control scheme changed: Keyboard and Mouse(<Keyboard>,<Mouse>,<Pen>)
-Unloading 922 unused Assets to reduce memory usage. Loaded Objects now: 30894.
-Total: 31.529700 ms (FindLiveObjects: 2.364700 ms CreateObjectMapping: 1.552000 ms MarkObjects: 26.185900 ms  DeleteObjects: 1.425800 ms)
+Unloading 976 unused Assets to reduce memory usage. Loaded Objects now: 30840.
+Total: 42.012000 ms (FindLiveObjects: 2.534500 ms CreateObjectMapping: 1.837000 ms MarkObjects: 36.145300 ms  DeleteObjects: 1.494300 ms)
 
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 OutsideUIClickEventRaiser has no target
@@ -94,11 +95,20 @@ POINTER DEVICE CHANGE: Mouse
 Set mode to IntroMenu
 Last environment 745e634a735a444d881d3c2455ce0a44
 No switch
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 Base shuffle group: 2
 Request https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg
 Handling https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg
 Loaded https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg from file cache
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: ' to follow the latest updates or to give us your feedback. Thank you for being part of this!'
+[Error  :XUnity.AutoTranslator] Failed: '49.8 hours'
+[Error  :XUnity.AutoTranslator] Failed: 'Dec (Endless)'
+[Error  :XUnity.AutoTranslator] Failed: 'Nov (Endless)'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
 Set mode to NoMusic
 The referenced script (Unknown) on this Behaviour is missing!
 The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
@@ -108,852 +118,6 @@ The referenced script (Unknown) on this Behaviour is missing!
 The referenced script (Unknown) on this Behaviour is missing!
 The referenced script (Unknown) on this Behaviour is missing!
 The referenced script (Unknown) on this Behaviour is missing!
-The referenced script on this Behaviour (Game Object 'Lobby Marker') is missing!
-The referenced script on this Behaviour (Game Object 'Van Anden Spawn Point') is missing!
-The referenced script on this Behaviour (Game Object 'Press Room Marker') is missing!
-The referenced script on this Behaviour (Game Object 'Compositing Room Marker') is missing!
-The referenced script on this Behaviour (Game Object 'News Room Marker') is missing!
-The referenced script on this Behaviour (Game Object 'Full Interior Marker') is missing!
-The referenced script on this Behaviour (Game Object 'Typesetting Room Marker') is missing!
-The referenced script on this Behaviour (Game Object 'Van Anden Painting') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (1)') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (1)') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (3)') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (3)') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (2)') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (2)') is missing!
-Unloading 2 Unused Serialized files (Serialized files now loaded: 12)
-UnloadTime: 30.455600 ms
-Floor count: 2, total added floors: 0, initial floors: 2
-Adding area map in coreloop callback
-Area map in core loop unlocked: False
-Confirm button enable
-No perception change audio clip found. Will not play audio when changing perception side
-No perception change audio clip found. Will not play audio when changing perception side
-Confirm button disable
-[Debugger] - Online
-[Debugger] - Activating debug modules on play...
-[DebugModuleDrawObjectDebugInfo] - Drawing debuggable object gizmos...
-Debug modules can be managed in the --[DEBUG]-- object.
-[DebugModuleGraphPositionDrawer] - Drawing graph positions...
-Debug modules can be managed in the --[DEBUG]-- object.
-[DebugModuleTowerEdgeDrawer] - Drawing tower edge gizmos...
-Debug modules can be managed in the --[DEBUG]-- object.
-Unloading 689 unused Assets to reduce memory usage. Loaded Objects now: 79659.
-Total: 69.520600 ms (FindLiveObjects: 10.928400 ms CreateObjectMapping: 5.845400 ms MarkObjects: 51.435600 ms  DeleteObjects: 1.310000 ms)
-
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-Loaded 216 mutable content word lists.
-Loaded 37 story file quotes
-Loaded 6 year labels
-Loaded 65 period labels
-Loaded 55 tag quotes
-KERNEL RESIZE!
-KERNEL RESIZE!
-Loaded 12 traits
-Loading game with header info:
-{"newspaperName":"反共日報","gameSessionCount":4,"totalPlaytimeSeconds":13304.136767067015,"newspaperEditions":41,"coreloopCount":41,"subscriberCount":2800,"towerTime":{"ticks":233837322955},"applicationVersion":"0.17.85.r","gameSessionId":"0861c1a2-0383-4287-a16d-6c0289a0c9ef","isAutoSave":false,"savedDuringCoreloop":false,"displayName":"反共日報","gameModeGuid":"9f840fbe7d9554f1787b8a7c210d9105","wasSavedInEndless":false,"dataFlags":1,"gameDataSerializer":0}
-Load root count: 202
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-Added from load game, macro InstructorFramework.Macros.HintStashTabInstructorMacro
-Added from load game, macro InstructorFramework.Macros.MaximizeSalesHintMacro
-Added from load game, macro InstructorFramework.Macros.OldNewsHintMacro
-Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
-Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
-Added from load game, macro InstructorFramework.Macros.ExplainPerceptionSlotMacro
-Added from load game, macro InstructorFramework.Macros.HintAutoResourceOrderInstructorMacro
-Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
-Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
-Added from load game, macro Macros.GuideInstructorMacro
-Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
-Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
-Added from load game, macro Macros.GuideInstructorMacro
-Added from load game, macro Macros.GuideInstructorMacro
-Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
-Added from load game, macro InstructorFramework.Macros.HintAutoResourceOrderInstructorMacro
-Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
-Added from load game, macro InstructorFramework.Macros.ExplainAdsInRecapMacro
-Added from load game, macro InstructorFramework.Macros.ExplainPerceptionStoryFileMacro
-Added from load game, macro InstructorFramework.Macros.HintAutoResourceOrderInstructorMacro
-Added from load game, macro InstructorFramework.Macros.ExplainStretchInstructorMacro
-Added from load game, macro Macros.GuideInstructorMacro
-Added from load game, macro InstructorFramework.Macros.ExpandWorkforceOnPageModuleHintMacro
-Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
-Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
-Added from load game, macro Macros.GuideInstructorMacro
-Added from load game, macro Macros.AdInjectMacro
-Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
-Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
-Added from load game, macro Macros.GuideInstructorMacro
-Added from load game, macro InstructorFramework.Macros.OrderResourcesInstructorMacro
-Added from load game, macro InstructorFramework.Macros.ToolTipSuspenderMacro
-Added from load game, macro InstructorFramework.Macros.ToolTipSuspenderMacro
-Added from load game, macro InstructorFramework.Macros.ExplainDismissMacro
-Added from load game, macro InstructorFramework.Macros.SecondPagePrintBoardHintMacro
-Added from load game, macro InstructorFramework.Macros.PowerFailInstructorMacro
-Added from load game, macro Macros.GuideInstructorMacro
-Added from load game, macro InstructorFramework.Macros.ExplainEditorBoxMacro
-Added from load game, macro InstructorFramework.Macros.ExplainTeasedSkillStoryFileMacro
-AutoSave event at Sunday 23:59, March 1933
-LastChanceToPrintEvent at Sunday 23:59, March 1933
-EndOfMonthEvent at Sunday 23:59, March 1933
-BAR ASSIGN
-Area map in core loop unlocked: True
-Initialized TowerTime at Tuesday 00:42, March 1933
-PRINT WINDOW END EVENT LOADED
-*** Something is modulating node state from a state change callback, this is not allowed
-KERNEL RESIZE!
-*** APPLYING ALL BUILDABLES ***
-Loaded game has tower score entries!
-Set game shuffle from: NoMusic to Newstower11_Low
-Set mode to GameShuffle
-Confirm button enable
-Confirm button disable
-KERNEL RESIZE!
-Spawned reportable{entertainmentLocation}: {shocks} Foundation at Tuesday 05:04, March 1933
-Instructor InstructorFramework.Macros.ExplainPerceptionSlotInstructor has stopped, success: False
-Stop instruction debug message: No perception slot found!
-Instructor InstructorFramework.Macros.ExplainPerceptionSlotInstructor has stopped, success: False
-Instructor InstructorFramework.Macros.MaximizeSalesHintInstructor has stopped, success: True
-MACRO UNLOADED: Maximize Sales And Explain Page Combo Hint
-Stop instruction debug message: No perception slot found!
-Instructor InstructorFramework.Macros.ExplainPerceptionSlotInstructor has stopped, success: False
-Instructor InstructorFramework.Macros.SecondPagePrintBoardHintInstructor has stopped, success: True
-MACRO UNLOADED: Second Page Printboard Hint
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Stop instruction debug message: Cannot resolve yield strip in drawer
-Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Stop instruction debug message: Cannot resolve yield strip in drawer
-Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: False
-Spawned reportableBank Holiday at Wednesday 04:32, March 1933
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Story file completed at Wednesday 07:09, March 1933
-Story file completed at Wednesday 07:25, March 1933
-Instructor InstructorFramework.Macros.ExplainPerceptionStoryFileInstructor has stopped, success: True
-MACRO UNLOADED: Explain Perception StoryFile
-Mobster/Protester appeared, count 1
-Playing RIT Protester Audio
-Mobster/Protester appeared, count 2
-Mobster/Protester appeared, count 3
-Mobster/Protester appeared, count 4
-Mobster/Protester appeared, count 5
-Mobster/Protester appeared, count 6
-Mobster/Protester appeared, count 7
-Mobster/Protester appeared, count 8
-Mobster/Protester appeared, count 9
-Story file completed at Wednesday 23:39, March 1933
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-Story file completed at Thursday 07:46, March 1933
-Set game shuffle from: Newstower11_Low to Newstower11_Mid
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Stop instruction debug message: No perception slot found!
-Instructor InstructorFramework.Macros.ExplainPerceptionSlotInstructor has stopped, success: False
-Stopped Playing RIT Protester Audio
-Story file completed at Friday 01:47, March 1933
-Instructor InstructorFramework.Macros.ExplainPerceptionSlotInstructor has stopped, success: True
-MACRO UNLOADED: Explain Perception - Newspaper Slot
-MACRO UNLOADED: Explain Perception - Guide
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Story file completed at Friday 09:17, March 1933
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Spawned reportableSheriff Released In Kidnapping at Friday 17:41, March 1933
-Autosave entry was found
-Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
-ON WINDOW END
-Already auto saved for period March 1933
-Handling success sequence 41
-Set mode to Printing
-Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
-Devlivery complete
-StartOfMonthEvent at Monday 00:00, April 1933
-EndOfMonthEvent at Sunday 23:59, April 1933
-Content Bulk: Released 1 items of unused content
-World news count: 1
-STOPPING QUEST _Game.Quests.HotTopicsQuest
-KERNEL RESIZE!
-Starting content matrix algorithm...
-Loading content bulk...
-User has seen all tooltips
-MACRO UNLOADED: Perception Recap - Kernel Move
-Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: False
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-Rewarding 19800 of Sales
-Rewarding 1 of Influence Points
-Rewarding 2970 of Money
-Rewarding 1 of Perception
-Paying monthly expense for March 1933: -2792.5
-Awaiting content matrix algorithm result...
-RECAP DEACTIVATE
-Awaiting content slices...
-Content Matrix took 48893ms. Details:
-Slices: 48
-Bulk:Total bulk size 644 items
-Reportables.NewsItemData size 533 items
-Reportables.Data.AdData size 111 items
-Content matrix algorithm finished!
-Area Map Recap: DoSequence
-Confirm button enable
-Start Playback
-End Playback
-Set mode to OptionsMenu
-Set mode to Printing
-IAreaMapRecapEnd
-Setting pending quest at row 2
-Setting pending quest at row 1
-Content Bulk: Released 644 items of unused content
-Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
-*** Generated 12 new applicants
-Set game shuffle from: Newstower11_Mid to Newstower8_Low
-Set mode to GameShuffle
-Print window start: Sunday 00:00, April 1933 end: Sunday 23:59, April 1933
-LastChanceToPrintEvent at Sunday 23:59, April 1933
-AutoSave event at Sunday 23:59, April 1933
-Success sequence done
-Remaining lockers:
-[--Full State--]
-(DisableOnPause, NoSave)
-
-[--Handlers--]
-TowerTime:
-()
-Confirm button disable
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Confirm button enable
-Confirm button disable
-Spawned reportableAnnual Art Exhibition Open Today at Monday 13:08, April 1933
-Story file completed at Monday 13:54, April 1933
-Spawned reportableGold Fever Sores Again? at Monday 19:50, April 1933
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Story file completed at Tuesday 15:51, April 1933
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Spawned reportableDirigible crash kills 73 in New Jersey at Tuesday 18:39, April 1933
-Story file completed at Tuesday 19:22, April 1933
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Story file completed at Wednesday 08:26, April 1933
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Finalize complete
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Story file completed at Wednesday 20:53, April 1933
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Bombing
-Story file completed at Thursday 03:36, April 1933
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Spawned reportableElderly People Drunk at Thursday 09:15, April 1933
-Spawned reportableU.S. Drops Gold Standard at Thursday 09:38, April 1933
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Set game shuffle from: Newstower8_Low to Newstower8_Mid
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Story file completed at Friday 01:42, April 1933
-Story file completed at Friday 02:07, April 1933
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Story file completed at Saturday 09:13, April 1933
-Spawned reportableRoosevelt Outlaws Private Gold Ownership at Saturday 15:53, April 1933
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-Finalize complete
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Autosave entry was found
-Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
-ON WINDOW END
-Already auto saved for period April 1933
-Handling success sequence 42
-Set mode to Printing
-Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
-Devlivery complete
-StartOfMonthEvent at Monday 00:00, May 1933
-EndOfMonthEvent at Sunday 23:59, May 1933
-Content Bulk: Released 1 items of unused content
-World news count: 1
-STOPPING QUEST _Game.Quests.HotTopicsQuest
-Quest fail consequence!
-STOPPING QUEST _Game.Quests.Composed.ComposedQuest
-Finalize prev week quest
-KERNEL RESIZE!
-Starting content matrix algorithm...
-Loading content bulk...
-Awaiting content slices...
-MAKE INACTIVE
-Content Matrix took 16468ms. Details:
-Slices: 30
-Bulk:Total bulk size 645 items
-Reportables.NewsItemData size 534 items
-Reportables.Data.AdData size 111 items
-MAKE INACTIVE
-Instructor InstructorFramework.Macros.ExplainAdsInRecapInstructor has stopped, success: True
-MACRO UNLOADED: Explain Ads In Recap Macro Data
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-Rewarding 22400 of Sales
-Rewarding 1 of Influence Points
-Rewarding 3360 of Money
-Rewarding 1 of Perception
-Paying monthly expense for April 1933: -2822.5
-Awaiting content matrix algorithm result...
-Content matrix algorithm finished!
-Area Map Recap: DoSequence
-RECAP DEACTIVATE
-Confirm button enable
-Start Playback
-End Playback
-IAreaMapRecapEnd
-Setting pending quest at row 1
-Setting pending quest at row 2
-Content Bulk: Released 645 items of unused content
-Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
-*** Generated 12 new applicants
-Set game shuffle from: Newstower8_Mid to Newstower3_Low
-Set mode to GameShuffle
-Print window start: Sunday 00:00, May 1933 end: Sunday 23:59, May 1933
-LastChanceToPrintEvent at Sunday 23:59, May 1933
-AutoSave event at Sunday 23:59, May 1933
-Success sequence done
-Remaining lockers:
-[--Full State--]
-(DisableOnPause, NoSave)
-
-[--Handlers--]
-TowerTime:
-()
-Confirm button disable
-Mobster/Protester appeared, count 1
-Mobster/Protester appeared, count 2
-Spawned reportableJ. P. Morgan, Jr. testifies before a U.S. Senate at Monday 04:23, May 1933
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-Instructor InstructorFramework.Macros.ExplainDismissInstructor has stopped, success: False
-MACRO UNLOADED: Explain Dismiss Button
-[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
-[Error  :XUnity.AutoTranslator] Failed: 'BEFORE A U.S. SENATE'
-[Error  :XUnity.AutoTranslator] Failed: 'J. P. MORGAN, JR. TESTIFIES'
-[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
-Spawned reportableGoverment Building Engulfed Amid Arson Suspicions at Monday 16:09, May 1933
-Spawned reportableJohn Dillinger Paroled at Monday 19:56, May 1933
-[Info   :XUnity.AutoTranslator] Re-enabled batching.
-Story file completed at Tuesday 07:07, May 1933
-Story file completed at Tuesday 08:04, May 1933
-Story file completed at Wednesday 06:46, May 1933
-Set game shuffle from: Newstower3_Low to Newstower3_Mid
-Story file completed at Friday 03:34, May 1933
-Spawned reportableMajor League Baseball All-Star Game at Friday 10:01, May 1933
-Spawned reportableRecord of {politicalEventCircumstances} {services} {lost} at Saturday 00:54, May 1933
-Story file completed at Saturday 09:56, May 1933
-Finalize complete
-Story file completed at Saturday 21:56, May 1933
-Autosave entry was found
-Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
-ON WINDOW END
-Already auto saved for period May 1933
-Handling success sequence 43
-Set mode to Printing
-Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
-Devlivery complete
-StartOfMonthEvent at Monday 00:00, June 1933
-EndOfMonthEvent at Sunday 23:59, June 1933
-Content Bulk: Released 1 items of unused content
-World news count: 1
-KEEPING QUEST _Game.Quests.HotTopicsQuest
-STOPPING QUEST _Game.Quests.Composed.ComposedQuest
-Finalize prev week quest
-KERNEL RESIZE!
-Starting content matrix algorithm...
-Loading content bulk...
-Awaiting content slices...
-MAKE INACTIVE
-Content Matrix took 16977ms. Details:
-Slices: 45
-Bulk:Total bulk size 648 items
-Reportables.NewsItemData size 537 items
-Reportables.Data.AdData size 111 items
-Rewarding 15000 of Sales
-Rewarding 2 of Influence Points
-Rewarding 2250 of Money
-Rewarding -1 of Perception
-Paying monthly expense for May 1933: -2822.5
-Awaiting content matrix algorithm result...
-Content matrix algorithm finished!
-Area Map Recap: DoSequence
-RECAP DEACTIVATE
-Confirm button enable
-Start Playback
-End Playback
-[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
-[Error  :XUnity.AutoTranslator] Failed: 'When my father came here, he was lured by the land of opportunity. I’m having new investors over who want just that.'
-[Error  :XUnity.AutoTranslator] Failed: 'The Grand Tour'
-[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
-IAreaMapRecapEnd
-Setting pending quest at row 1
-Content Bulk: Released 648 items of unused content
-Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
-*** Generated 12 new applicants
-Set game shuffle from: Newstower3_Mid to Newstower11_Low
-Set mode to GameShuffle
-Print window start: Sunday 00:00, June 1933 end: Sunday 23:59, June 1933
-LastChanceToPrintEvent at Sunday 23:59, June 1933
-AutoSave event at Sunday 23:59, June 1933
-Success sequence done
-Remaining lockers:
-[--Full State--]
-(DisableOnPause, NoSave)
-
-[--Handlers--]
-TowerTime:
-()
-Confirm button disable
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-[Info   :XUnity.AutoTranslator] Re-enabled batching.
-Story file completed at Monday 18:55, June 1933
-Spawned reportableRichfield Oil Explosion at Tuesday 01:30, June 1933
-Spawned reportable{spawnLocation} Theater's Figures {losing} at Tuesday 08:07, June 1933
-Story file completed at Tuesday 17:49, June 1933
-Story file completed at Wednesday 14:46, June 1933
-Story file completed at Wednesday 18:03, June 1933
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Set game shuffle from: Newstower11_Low to Newstower11_Mid
-Story file completed at Friday 00:24, June 1933
-Spawned reportableAnticipation Builds for FDR's Inauguration at Friday 07:01, June 1933
-Spawned reportableTroy Election Sparks Unrest at Friday 11:29, June 1933
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Story file completed at Saturday 11:47, June 1933
-Finalize complete
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Spawned reportableJealous Gravedigger at Saturday 18:53, June 1933
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Autosave entry was found
-Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
-ON WINDOW END
-Story file completed at Sunday 07:42, June 1933
-Already auto saved for period June 1933
-Handling success sequence 44
-Set mode to Printing
-Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
-Devlivery complete
-StartOfMonthEvent at Monday 00:00, July 1933
-EndOfMonthEvent at Sunday 23:59, July 1933
-Content Bulk: Released 0 items of unused content
-World news count: 0
-STOPPING QUEST _Game.Quests.HotTopicsQuest
-KERNEL RESIZE!
-Starting content matrix algorithm...
-Loading content bulk...
-MAKE INACTIVE
-MAKE INACTIVE
-Awaiting content slices...
-ContentMatrixSlice did not pass validation after 1/5.
-ContentMatrixSlice has completely resolved any validation issues after 2 iterations.
-Content Matrix took 17325ms. Details:
-Slices: 45
-Bulk:Total bulk size 648 items
-Reportables.NewsItemData size 537 items
-Reportables.Data.AdData size 111 items
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-Rewarding 28600 of Sales
-Rewarding 0 of Influence Points
-Rewarding 4290 of Money
-Rewarding 0 of Perception
-Paying monthly expense for June 1933: -2822.5
-Awaiting content matrix algorithm result...
-Content matrix algorithm finished!
-Area Map Recap: DoSequence
-RECAP DEACTIVATE
-Confirm button enable
-Start Playback
-End Playback
-IAreaMapRecapEnd
-Setting pending quest at row 1
-Spawned reportable Notary Office at Monday 00:00, July 1933
-Content Bulk: Released 648 items of unused content
-Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
-*** Generated 12 new applicants
-Set game shuffle from: Newstower11_Mid to Newstower8_Low
-Set mode to GameShuffle
-Print window start: Sunday 00:00, July 1933 end: Sunday 23:59, July 1933
-LastChanceToPrintEvent at Sunday 23:59, July 1933
-AutoSave event at Sunday 23:59, July 1933
-Success sequence done
-Remaining lockers:
-[--Full State--]
-(DisableOnPause, NoSave)
-
-[--Handlers--]
-TowerTime:
-()
-Confirm button disable
-Story file completed at Monday 19:50, July 1933
-Story file completed at Tuesday 03:11, July 1933
-Story file completed at Tuesday 04:33, July 1933
-Spawned reportableRoosevelt Stunnes World Economic Conference at Tuesday 12:13, July 1933
-Spawned reportableGoldwyn Girl Shows Promise at Tuesday 19:02, July 1933
-Story file completed at Wednesday 06:52, July 1933
-Story file completed at Wednesday 07:15, July 1933
-Set game shuffle from: Newstower8_Low to Newstower8_Mid
-Story file completed at Thursday 17:29, July 1933
-Story file completed at Friday 01:37, July 1933
-Spawned reportableNIRA Cotton Textile Code Enacted at Friday 08:26, July 1933
-Story file completed at Friday 14:29, July 1933
-Spawned reportableThe Pirates Introduce Themselves at Friday 21:30, July 1933
-Story file completed at Saturday 12:02, July 1933
-Story file completed at Saturday 14:29, July 1933
-Spawned reportable{discovery} Guides Schools at Saturday 20:48, July 1933
-Autosave entry was found
-Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
-ON WINDOW END
-Story file completed at Sunday 09:28, July 1933
-Story file completed at Sunday 13:33, July 1933
-Already auto saved for period July 1933
-Handling success sequence 45
-Set mode to Printing
-Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
-Devlivery complete
-StartOfMonthEvent at Monday 00:00, August 1933
-EndOfMonthEvent at Sunday 23:59, August 1933
-Content Bulk: Released 0 items of unused content
-World news count: 0
-STOPPING QUEST _Game.Quests.HotTopicsQuest
-KERNEL RESIZE!
-Starting content matrix algorithm...
-Loading content bulk...
-MAKE INACTIVE
-MAKE INACTIVE
-MAKE INACTIVE
-MAKE INACTIVE
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-Awaiting content slices...
-Content Matrix took 17327ms. Details:
-Slices: 45
-Bulk:Total bulk size 644 items
-Reportables.NewsItemData size 533 items
-Reportables.Data.AdData size 111 items
-Rewarding 25200 of Sales
-Rewarding 0 of Influence Points
-Rewarding 4780 of Money
-Rewarding 1 of Perception
-Paying monthly expense for July 1933: -2860
-Awaiting content matrix algorithm result...
-Content matrix algorithm finished!
-Area Map Recap: DoSequence
-RECAP DEACTIVATE
-Confirm button enable
-Start Playback
-End Playback
-IAreaMapRecapEnd
-Setting pending quest at row 1
-Content Bulk: Released 644 items of unused content
-Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
-*** Generated 12 new applicants
-Set game shuffle from: Newstower8_Mid to Newstower3_Low
-Set mode to GameShuffle
-Print window start: Sunday 00:00, August 1933 end: Sunday 23:59, August 1933
-LastChanceToPrintEvent at Sunday 23:59, August 1933
-AutoSave event at Sunday 23:59, August 1933
-Success sequence done
-Remaining lockers:
-[--Full State--]
-(DisableOnPause, NoSave)
-
-[--Handlers--]
-TowerTime:
-()
-Confirm button disable
-Confirm button enable
-Confirm button disable
-Spawned reportableGassy Stock Exchange at Monday 15:26, August 1933
-Finalize complete
-Story file completed at Tuesday 06:40, August 1933
-Paying out entry!
-Map reward payout, buildable unlock: Law Books Unlock Pair (Stock: -1, Unlock Mode: Set)
-Spawned reportable{spawnLocation} Theater's Figures {losing} at Wednesday 03:16, August 1933
-Lawuit worked out!
-Story file completed at Wednesday 05:45, August 1933
-Story file completed at Wednesday 20:33, August 1933
-Story file completed at Thursday 01:51, August 1933
-Spawned reportableApartment Burned by Candle light at Thursday 11:41, August 1933
-Set game shuffle from: Newstower3_Low to Newstower3_Mid
-Story file completed at Friday 02:44, August 1933
-Finalize complete
-Story file completed at Friday 08:38, August 1933
-Spawned reportableNew Deal Empowers Workers at Saturday 04:17, August 1933
-Story file completed at Saturday 12:54, August 1933
-Story file completed at Saturday 14:23, August 1933
-Spawned reportable{bankruptcy}! at Saturday 21:51, August 1933
-Finalize complete
-Story file completed at Sunday 08:45, August 1933
-Story file completed at Sunday 13:02, August 1933
-Spawned reportableBaseball's Idol Says He'll Quit at Sunday 22:03, August 1933
-Autosave entry was found
-Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
-ON LAST CHANCE TO PRINT
-Last chance window begin
-Already auto saved for period August 1933
-ON WINDOW END
-Handling success sequence 46
-Set mode to Printing
-Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
-Devlivery complete
-StartOfMonthEvent at Monday 00:00, September 1933
-EndOfMonthEvent at Sunday 23:59, September 1933
-Content Bulk: Released 0 items of unused content
-World news count: 0
-STOPPING QUEST _Game.Quests.HotTopicsQuest
-KERNEL RESIZE!
-Starting content matrix algorithm...
-Loading content bulk...
-MAKE INACTIVE
-MAKE INACTIVE
-Awaiting content slices...
-Content Matrix took 17478ms. Details:
-Slices: 45
-Bulk:Total bulk size 637 items
-Reportables.NewsItemData size 526 items
-Reportables.Data.AdData size 111 items
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-Rewarding 23200 of Sales
-Rewarding 6 of Influence Points
-Rewarding 3480 of Money
-Rewarding -1 of Perception
-Paying monthly expense for August 1933: -2897.5
-Awaiting content matrix algorithm result...
-Content matrix algorithm finished!
-Area Map Recap: DoSequence
-RECAP DEACTIVATE
-Confirm button enable
-Start Playback
-End Playback
-IAreaMapRecapEnd
-Setting pending quest at row 1
-Setting pending quest at row 2
-Spawned reportableBanking made safe again at Monday 00:00, September 1933
-Content Bulk: Released 637 items of unused content
-Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
-*** Generated 12 new applicants
-Set game shuffle from: Newstower3_Mid to Newstower11_Low
-Set mode to GameShuffle
-Print window start: Sunday 00:00, September 1933 end: Sunday 23:59, September 1933
-LastChanceToPrintEvent at Sunday 23:59, September 1933
-AutoSave event at Sunday 23:59, September 1933
-Success sequence done
-Remaining lockers:
-[--Full State--]
-(DisableOnPause, NoSave)
-
-[--Handlers--]
-TowerTime:
-()
-Confirm button disable
-Story file completed at Monday 19:26, September 1933
-Story file completed at Monday 21:02, September 1933
-Spawned reportable{crimeGoods} Seized By {police} at Tuesday 04:53, September 1933
-Confirm button enable
-Confirm button disable
-Story file completed at Tuesday 08:32, September 1933
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-Story file completed at Wednesday 00:00, September 1933
-Story file completed at Wednesday 02:32, September 1933
-Spawned reportableHollywood Needs Virtue at Thursday 09:04, September 1933
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-Set game shuffle from: Newstower11_Low to Newstower11_Mid
-Story file completed at Saturday 11:02, September 1933
-[Error  :XUnity.AutoTranslator] Error occurred while retrieving translation.
-System.Net.WebException: Error getting response stream (ReadDoneAsync2): ReceiveFailure
-  at System.Net.WebResponseStream.InitReadAsync (System.Threading.CancellationToken cancellationToken) [0x000f3] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
-  at System.Net.WebOperation.Run () [0x001d9] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
-  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
-  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
-  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Web.XUnityWebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadDataCore (System.Uri address, System.String method, System.Byte[] data, System.Object userToken) [0x00036] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadData (System.Uri address, System.String method, System.Byte[] data) [0x0003e] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadString (System.Uri address, System.String method, System.String data) [0x00031] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.<UploadStringAsync>b__127_0 (System.Object state) [0x00007] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-[Error  :XUnity.AutoTranslator] Failed: 'HOLLYWOOD NEEDS VIRTUE'
-[Warning:XUnity.AutoTranslator] Retrying translation for 'HOLLYWOOD NEEDS VIRTUE' against fallback endpoint instead.
-Finalize complete
-[Error  :XUnity.AutoTranslator] Error occurred during translation.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at BingTranslate.BingTranslateEndpoint.OnExtractTranslation (XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.IHttpTranslationExtractionContext context) [0x00015] in <6dd559dabaa442ad811aa138e166b965>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.HttpEndpoint+<Translate>d__13.MoveNext () [0x0018a] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Endpoints.TranslationEndpointManager+<Translate>d__78.MoveNext () [0x000fd] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-[Error  :XUnity.AutoTranslator] Failed: 'HOLLYWOOD NEEDS VIRTUE'
-Spawned reportableRecord Catch! at Saturday 19:54, September 1933
-Spawned reportableA Coal Miners Fair Wage! at Saturday 22:26, September 1933
-Autosave entry was found
-Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
-ON WINDOW END
-Already auto saved for period September 1933
-Handling success sequence 47
-Set mode to Printing
-Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
-Devlivery complete
-StartOfMonthEvent at Monday 00:00, October 1933
-EndOfMonthEvent at Sunday 23:59, October 1933
-Content Bulk: Released 0 items of unused content
-World news count: 0
-STOPPING QUEST _Game.Quests.HotTopicsQuest
-STOPPING QUEST _Game.Quests.Composed.ComposedQuest
-Finalize prev week quest
-KERNEL RESIZE!
-Starting content matrix algorithm...
-Loading content bulk...
-MAKE INACTIVE
-MAKE INACTIVE
-Awaiting content slices...
-Content Matrix took 17373ms. Details:
-Slices: 42
-Bulk:Total bulk size 637 items
-Reportables.NewsItemData size 526 items
-Reportables.Data.AdData size 111 items
-Rewarding 17700 of Sales
-Rewarding 8 of Influence Points
-Rewarding 4655 of Money
-Rewarding 0 of Perception
-Paying monthly expense for September 1933: -2897.5
-Awaiting content matrix algorithm result...
-Content matrix algorithm finished!
-Area Map Recap: DoSequence
-RECAP DEACTIVATE
-Confirm button enable
-Start Playback
-End Playback
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://www.bing.com:443' due to inactivity.
-Paying out entry!
-Map reward payout, buildable unlock: Printer Page Module Unlock Pair (Stock: 1, Unlock Mode: Add)
-Set mode to OptionsMenu
-Set mode to Printing
-IAreaMapRecapEnd
-Setting pending quest at row 2
-Setting pending quest at row 1
-Content Bulk: Released 637 items of unused content
-Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
-*** Generated 12 new applicants
-Set game shuffle from: Newstower11_Mid to Newstower8_Low
-Set mode to GameShuffle
-Print window start: Sunday 00:00, October 1933 end: Sunday 23:59, October 1933
-LastChanceToPrintEvent at Sunday 23:59, October 1933
-AutoSave event at Sunday 23:59, October 1933
-Success sequence done
-Remaining lockers:
-[--Full State--]
-(DisableOnPause, NoSave)
-
-[--Handlers--]
-TowerTime:
-()
-Confirm button disable
-KERNEL RESIZE!
-KERNEL RESIZE!
-KERNEL RESIZE!
-KERNEL RESIZE!
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-KERNEL RESIZE!
-KERNEL RESIZE!
-Instructor InstructorFramework.Macros.ExpandWorkforceOnPageModuleHintInstructor has stopped, success: False
-KERNEL RESIZE!
-KERNEL RESIZE!
-KERNEL RESIZE!
-KERNEL RESIZE!
-[Error  :XUnity.AutoTranslator] Error occurred while retrieving translation.
-System.Net.WebException: Error getting response stream (ReadDoneAsync2): ReceiveFailure
-  at System.Net.WebResponseStream.InitReadAsync (System.Threading.CancellationToken cancellationToken) [0x000f3] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
-  at System.Net.WebOperation.Run () [0x001d9] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
-  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
-  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
-  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Web.XUnityWebClient.GetWebResponse (System.Net.WebRequest request) [0x00000] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadDataCore (System.Uri address, System.String method, System.Byte[] data, System.Object userToken) [0x00036] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadData (System.Uri address, System.String method, System.Byte[] data) [0x0003e] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.UploadString (System.Uri address, System.String method, System.String data) [0x00031] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Web.Internal.ConnectionTrackingWebClient.<UploadStringAsync>b__127_0 (System.Object state) [0x00007] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-[Error  :XUnity.AutoTranslator] Failed: 'Incomplete Printer!'
-[Warning:XUnity.AutoTranslator] Retrying translation for 'Incomplete Printer!' against fallback endpoint instead.
-KERNEL RESIZE!
-KERNEL RESIZE!
-Set mode to OptionsMenu
-Updated SaveGameManager.DisplayName
-save game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nt
-Set game shuffle from: Newstower8_Low to Newstower3_Low
-Set mode to GameShuffle
-Story file completed at Tuesday 16:21, October 1933
-Story file completed at Tuesday 17:58, October 1933
-Story file completed at Wednesday 08:27, October 1933
-[Error  :XUnity.AutoTranslator] Error occurred during translation.
-System.ArgumentNullException: Value cannot be null.
-Parameter name: cookies
-  at System.Net.CookieContainer.Add (System.Net.CookieCollection cookies) [0x00003] in <647615f3c1e6423a897a1a8f71c1fd3c>:0 
-  at BingTranslate.BingTranslateEndpoint.InspectResponse (XUnity.AutoTranslator.Plugin.Core.Web.XUnityWebResponse response) [0x00007] in <6dd559dabaa442ad811aa138e166b965>:0 
-  at BingTranslate.BingTranslateEndpoint.OnInspectResponse (XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.IHttpResponseInspectionContext context) [0x00007] in <6dd559dabaa442ad811aa138e166b965>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Endpoints.Http.HttpEndpoint+<Translate>d__13.MoveNext () [0x00139] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-  at XUnity.AutoTranslator.Plugin.Core.Endpoints.TranslationEndpointManager+<Translate>d__78.MoveNext () [0x000fd] in <e3c0bad3c8d74d1c9d523565b4b2ee3d>:0 
-[Error  :XUnity.AutoTranslator] Failed: 'Incomplete Printer!'
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://www.bing.com:443' due to inactivity.
-Spawned reportableMissouri's western edge Thrives at Wednesday 15:42, October 1933
-Set mode to OptionsMenu
-Updated SaveGameManager.DisplayName
-save game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nt
-Set game shuffle from: Newstower3_Low to Newstower11_Low
-Set mode to GameShuffle
-Set mode to OptionsMenu
-Updated SaveGameManager.DisplayName
-save game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef-1.nt
-Set game shuffle from: Newstower11_Low to Newstower8_Low
-Set mode to GameShuffle
-Set mode to OptionsMenu
-Guide unload: inloading bullet macro Build Graphic Chain - Build Repro Cam from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Build Graphic Chain - Assign Repro Cam from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Build Graphic Chain - Build Chemical Engraver from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Build Graphic Chain - Assign Chemical Engraver from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Illustrator - Build Desk from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Illustrator - Assign from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Power Fail - Explain And Unlock Generator And Industrial Wallpaper from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Photographer - Build Desk from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Photographer - Assign from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Photographer - Build Darkroom from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Photographer - Assign Darkroom from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Cartographer - Build Desk from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Cartographer - Assign from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Order Coal from guide macro because it wasn't unloaded yet.
-Set game shuffle from: Newstower8_Low to Newstower3_Low
-Set mode to GameShuffle
-Set mode to IntroMenu
-Unloading 2 Unused Serialized files (Serialized files now loaded: 12)
-UnloadTime: 536.246700 ms
-Request https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg
-Unloading 6720 unused Assets to reduce memory usage. Loaded Objects now: 78893.
-Total: 184.448100 ms (FindLiveObjects: 12.029400 ms CreateObjectMapping: 15.391600 ms MarkObjects: 132.772300 ms  DeleteObjects: 24.254000 ms)
-
-Handling https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg
-Loaded https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg from file cache
-Set mode to NoMusic
-The referenced script on this Behaviour (Game Object '<null>') is missing!
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
 The referenced script on this Behaviour (Game Object 'Lobby Marker') is missing!
 The referenced script on this Behaviour (Game Object 'Van Anden Spawn Point') is missing!
 The referenced script on this Behaviour (Game Object 'Press Room Marker') is missing!
@@ -969,7 +133,7 @@ The referenced script on this Behaviour (Game Object 'Employee Line Display Canv
 The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (2)') is missing!
 The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas (2)') is missing!
 Unloading 1 Unused Serialized files (Serialized files now loaded: 12)
-UnloadTime: 19.294500 ms
+UnloadTime: 33.973800 ms
 Floor count: 2, total added floors: 0, initial floors: 2
 Adding area map in coreloop callback
 Area map in core loop unlocked: False
@@ -985,96 +149,359 @@ Debug modules can be managed in the --[DEBUG]-- object.
 Debug modules can be managed in the --[DEBUG]-- object.
 [DebugModuleTowerEdgeDrawer] - Drawing tower edge gizmos...
 Debug modules can be managed in the --[DEBUG]-- object.
-Unloading 385 unused Assets to reduce memory usage. Loaded Objects now: 113004.
-Total: 79.455200 ms (FindLiveObjects: 11.313300 ms CreateObjectMapping: 12.067600 ms MarkObjects: 55.237100 ms  DeleteObjects: 0.836600 ms)
+Unloading 692 unused Assets to reduce memory usage. Loaded Objects now: 79855.
+Total: 62.219900 ms (FindLiveObjects: 7.770200 ms CreateObjectMapping: 5.133400 ms MarkObjects: 48.237900 ms  DeleteObjects: 1.077300 ms)
 
-Loaded 216 mutable content word lists.
+The referenced script on this Behaviour (Game Object '<null>') is missing!
 Loaded 216 mutable content word lists.
 Loaded 37 story file quotes
 Loaded 6 year labels
 Loaded 65 period labels
 Loaded 55 tag quotes
 KERNEL RESIZE!
+KERNEL RESIZE!
 Loaded 12 traits
 Loading game with header info:
-{"newspaperName":"反共日報","gameSessionCount":5,"totalPlaytimeSeconds":15541.512026133016,"newspaperEditions":48,"coreloopCount":48,"subscriberCount":3200,"towerTime":{"ticks":233910457583},"applicationVersion":"0.17.85.r","gameSessionId":"0861c1a2-0383-4287-a16d-6c0289a0c9ef","isAutoSave":false,"savedDuringCoreloop":false,"displayName":"反共日報","gameModeGuid":"9f840fbe7d9554f1787b8a7c210d9105","wasSavedInEndless":false,"dataFlags":1,"gameDataSerializer":0}
-Load root count: 206
+{"newspaperName":"反共日報","gameSessionCount":9,"totalPlaytimeSeconds":179163.77122826503,"newspaperEditions":98,"coreloopCount":98,"subscriberCount":7700,"towerTime":{"ticks":234410425200},"applicationVersion":"0.17.85.r","gameSessionId":"0861c1a2-0383-4287-a16d-6c0289a0c9ef","isAutoSave":false,"savedDuringCoreloop":false,"displayName":"反共日報","gameModeGuid":"9f840fbe7d9554f1787b8a7c210d9105","wasSavedInEndless":true,"dataFlags":1,"gameDataSerializer":0}
+Load root count: 316
 The referenced script on this Behaviour (Game Object '<null>') is missing!
-Added from load game, macro InstructorFramework.Macros.HintStashTabInstructorMacro
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
 Added from load game, macro InstructorFramework.Macros.ExplainTeasedSkillStoryFileMacro
-Added from load game, macro InstructorFramework.Macros.OldNewsHintMacro
-Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
-Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
-Added from load game, macro InstructorFramework.Macros.PowerFailInstructorMacro
 Added from load game, macro InstructorFramework.Macros.HintAutoResourceOrderInstructorMacro
-Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
-Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
-Added from load game, macro Macros.GuideInstructorMacro
-Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
-Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
-Added from load game, macro Macros.GuideInstructorMacro
-Added from load game, macro InstructorFramework.Macros.ExplainEditorBoxMacro
-Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
-Added from load game, macro InstructorFramework.Macros.HintAutoResourceOrderInstructorMacro
-Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
-Added from load game, macro InstructorFramework.Macros.ToolTipSuspenderMacro
-Added from load game, macro Macros.GuideInstructorMacro
-Added from load game, macro InstructorFramework.Macros.HintAutoResourceOrderInstructorMacro
-Added from load game, macro InstructorFramework.Macros.ExplainStretchInstructorMacro
-Added from load game, macro Macros.GuideInstructorMacro
-Added from load game, macro InstructorFramework.Macros.ExpandWorkforceOnPageModuleHintMacro
-Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
-Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
-Added from load game, macro Macros.GuideInstructorMacro
 Added from load game, macro Macros.AdInjectMacro
 Added from load game, macro InstructorFramework.Macros.AssignInstructorMacro
-Added from load game, macro InstructorFramework.Macros.BuildUniqueInstructorMacro
+Added from load game, macro InstructorFramework.Macros.ExplainStretchInstructorMacro
+Added from load game, macro InstructorFramework.Macros.HintAutoResourceOrderInstructorMacro
 Added from load game, macro Macros.GuideInstructorMacro
-Added from load game, macro InstructorFramework.Macros.OrderResourcesInstructorMacro
-AutoSave event at Sunday 23:59, October 1933
-LastChanceToPrintEvent at Sunday 23:59, October 1933
-EndOfMonthEvent at Sunday 23:59, October 1933
+AutoSave event at Sunday 23:59, December
+LastChanceToPrintEvent at Sunday 23:59, December
+EndOfMonthEvent at Sunday 23:59, December
 BAR ASSIGN
 Area map in core loop unlocked: True
-Initialized TowerTime at Wednesday 19:37, October 1933
+Initialized TowerTime at Monday 00:25, December
 PRINT WINDOW END EVENT LOADED
 KERNEL RESIZE!
 *** APPLYING ALL BUILDABLES ***
 Loaded game has tower score entries!
-Set game shuffle from: Newstower3_Low to Newstower11_Low
+Set game shuffle from: NoMusic to Newstower11_Low
 Set mode to GameShuffle
 Confirm button enable
 Confirm button disable
 KERNEL RESIZE!
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-Set mode to OptionsMenu
-Updated SaveGameManager.DisplayName
-save game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef-1.nt
-Set game shuffle from: Newstower11_Low to Newstower8_Low
-Set mode to GameShuffle
-Set game shuffle from: Newstower8_Low to Newstower8_Mid
-Spawned reportableGolden Opportunities in the Bay at Thursday 17:18, October 1933
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Story file completed at Monday 15:59, December
+Story file completed at Monday 18:03, December
+Story file completed at Monday 19:06, December
+Spawned reportableResort Town Devastated by Boardwalk Fire at Monday 22:51, December
+Story file completed at Tuesday 00:48, December
+Spawned reportableSports Fan {murder} at Tuesday 02:31, December
+Story file completed at Tuesday 15:51, December
+Story file completed at Tuesday 18:26, December
 Finalize complete
-Story file completed at Friday 05:53, October 1933
-Story file completed at Friday 08:16, October 1933
+Finalize complete
+Story file completed at Tuesday 21:25, December
+Story file completed at Tuesday 22:53, December
+Story file completed at Wednesday 01:58, December
+Spawned reportableThree earthquakes in California at Wednesday 03:16, December
 [Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
 Finalize complete
-***** Divert with clients in queue
-***** Divert with clients in queue
-***** Divert with clients in queue
+Finalize complete
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Finalize complete
+Finalize complete
+Finalize complete
+Spawned reportable{spawnLocation} Theater's Figures {losing} at Wednesday 17:40, December
+Story file completed at Wednesday 20:19, December
+Story file completed at Wednesday 22:32, December
+Story file completed at Thursday 01:38, December
+Spawned reportable{crimeGoods} Seized By {police} at Thursday 09:40, December
+Set game shuffle from: Newstower11_Low to Newstower11_Mid
+Story file completed at Thursday 16:53, December
+Story file completed at Thursday 20:32, December
+Story file completed at Thursday 22:52, December
+Spawned reportable{entertainmentPrefix} Movie Sequel In The Works at Friday 00:46, December
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Story file completed at Friday 04:20, December
+Spawned reportableOutdoor swim races today at Friday 09:19, December
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Finalize complete
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Story file completed at Saturday 23:16, December
+Confirm button enable
+Confirm button disable
+Story file completed at Sunday 02:45, December
+Story file completed at Sunday 03:43, December
+Spawned reportableGangster's Ruthless Heist Leaves Bank in Chaos at Sunday 07:33, December
+Spawned reportableFleeting Social Norms In Media at Sunday 08:40, December
+Finalize complete
 Autosave entry was found
 Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON LAST CHANCE TO PRINT
+Last chance window begin
+Already auto saved for period December
 ON WINDOW END
-Already auto saved for period October 1933
-Handling success sequence 48
+Handling success sequence 98
 Set mode to Printing
 Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
 Devlivery complete
-StartOfMonthEvent at Monday 00:00, November 1933
-EndOfMonthEvent at Sunday 23:59, November 1933
-Content Bulk: Released 1 items of unused content
-World news count: 1
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+StartOfMonthEvent at Monday 00:00, January
+EndOfMonthEvent at Sunday 23:59, January
+Content Bulk: Released 0 items of unused content
+World news count: 0
+KEEPING QUEST _Game.Quests.HotTopicsQuest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Rewarding 29700 of Sales
+Rewarding 0 of Influence Points
+Rewarding 6455 of Money
+Rewarding 1 of Perception
+Paying monthly expense for December: -4805
+Awaiting content matrix algorithm result...
+RECAP DEACTIVATE
+Awaiting content slices...
+Content Matrix took 48390ms. Details:
+Slices: 60
+Bulk:Total bulk size 441 items
+Reportables.NewsItemData size 330 items
+Reportables.Data.AdData size 111 items
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+Confirm button enable
+Start Playback
+End Playback
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+IAreaMapRecapEnd
+Setting pending quest at row 2
+Setting pending quest at row 1
+Content Bulk: Released 441 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower11_Mid to Newstower8_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, January end: Sunday 23:59, January
+LastChanceToPrintEvent at Sunday 23:59, January
+AutoSave event at Sunday 23:59, January
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Confirm button disable
+Story file completed at Monday 11:52, January
+Story file completed at Monday 15:53, January
+Spawned reportableSocialist Surge: Working-Class Movement at Monday 16:56, January
+Story file completed at Tuesday 02:22, January
+Story file completed at Tuesday 06:25, January
+Story file completed at Tuesday 06:47, January
+Spawned reportableStore {economicCrisis} at Tuesday 10:50, January
+Finalize complete
+Spawned reportable{spawnLocation} {mainSport} Unfit at Tuesday 14:58, January
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Story file completed at Wednesday 03:43, January
+Story file completed at Wednesday 03:55, January
+Story file completed at Wednesday 04:15, January
+Spawned reportable{spawnLocation} {economyField} {economyGroup} at Wednesday 08:21, January
+Story file completed at Wednesday 20:04, January
+Story file completed at Thursday 02:21, January
+Finalize complete
+Story file completed at Thursday 06:13, January
+Spawned reportableUphold the 19th Amendment! at Thursday 07:12, January
+Story file completed at Thursday 10:17, January
+Set game shuffle from: Newstower8_Low to Newstower8_Mid
+Story file completed at Thursday 19:27, January
+Spawned reportableChild Abduction Shock at Friday 01:02, January
+Spawned reportable{politicsEventDescription} {politicsGroup} Shows Influence at Friday 03:22, January
+Story file completed at Friday 12:38, January
+Finalize complete
+Story file completed at Friday 15:07, January
+Story file completed at Friday 16:21, January
+Spawned reportableMany Women Enter Workforce at Friday 17:17, January
+Finalize complete
+Spawned reportableMarion Davies Sighted in NY at Saturday 00:17, January
+Story file completed at Saturday 06:09, January
+Spawned reportable{bitter} {defeat} at Saturday 11:02, January
+Spawned reportable{crimeLocation} {shootout} at Saturday 11:30, January
+Finalize complete
+Story file completed at Saturday 20:56, January
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Story file completed at Sunday 01:07, January
+Story file completed at Sunday 03:00, January
+Already auto saved for period January
+Handling success sequence 99
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+StartOfMonthEvent at Monday 00:00, February
+EndOfMonthEvent at Sunday 23:59, February
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+STOPPING QUEST _Game.Quests.Composed.ComposedQuest
+Finalize prev week quest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+Awaiting content slices...
+Content Matrix took 12596ms. Details:
+Slices: 58
+Bulk:Total bulk size 437 items
+Reportables.NewsItemData size 326 items
+Reportables.Data.AdData size 111 items
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Rewarding 50900 of Sales
+Rewarding 3 of Influence Points
+Rewarding 13635 of Money
+Rewarding 1 of Perception
+Paying monthly expense for January: -4805
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+IAreaMapRecapEnd
+Setting pending quest at row 2
+Setting pending quest at row 1
+Spawned reportableFor every Handyman at Monday 00:00, February
+Spawned reportableThe company that makes dreams at Monday 00:00, February
+Content Bulk: Released 437 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower8_Mid to Newstower3_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, February end: Sunday 23:59, February
+LastChanceToPrintEvent at Sunday 23:59, February
+AutoSave event at Sunday 23:59, February
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Confirm button disable
+Confirm button enable
+Confirm button disable
+Spawned reportable{crimeGoods} Seized By {police} at Monday 08:15, February
+Paying out entry!
+Map reward payout, buildable unlock: Printer Page Module Unlock Pair (Stock: 1, Unlock Mode: Add)
+Story file completed at Monday 15:51, February
+KERNEL RESIZE!
+KERNEL RESIZE!
+KERNEL RESIZE!
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+KERNEL RESIZE!
+KERNEL RESIZE!
+KERNEL RESIZE!
+KERNEL RESIZE!
+Story file completed at Monday 16:52, February
+Spawned reportable{societyGenericPerson} Hiking {lost} in {outdoors} at Monday 21:30, February
+Story file completed at Tuesday 00:43, February
+Story file completed at Tuesday 02:07, February
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Spawned reportable{crimePersonDescription} {crimePerson} {crimeArrested} at Tuesday 12:48, February
+Story file completed at Tuesday 13:16, February
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Story file completed at Wednesday 18:44, February
+KERNEL RESIZE!
+Finalize complete
+Spawned reportableFarmers' Fury at Thursday 02:44, February
+KERNEL RESIZE!
+Set game shuffle from: Newstower3_Low to Newstower3_Mid
+KERNEL RESIZE!
+KERNEL RESIZE!
+Finalize complete
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Finalize complete
+Finalize complete
+Finalize complete
+Story file completed at Saturday 06:22, February
+Story file completed at Saturday 06:27, February
+Story file completed at Saturday 07:33, February
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Spawned reportableTightening Lendings Standards at Saturday 14:21, February
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Saturday 22:26, February
+Story file completed at Sunday 01:02, February
+Spawned reportableTHREE POLICEMEN ACCUSED OF MURDER at Sunday 03:12, February
+Spawned reportable{spawnLocation} Theater's Figures {losing} at Sunday 05:53, February
+Story file completed at Sunday 08:38, February
+Finalize complete
+Finalize complete
+Story file completed at Sunday 17:42, February
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON LAST CHANCE TO PRINT
+Last chance window begin
+Already auto saved for period February
+ON WINDOW END
+Handling success sequence 100
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+StartOfMonthEvent at Monday 00:00, March
+EndOfMonthEvent at Sunday 23:59, March
+Can't dump because of no dump flag
+Content Bulk: Released 0 items of unused content
+World news count: 0
 STOPPING QUEST _Game.Quests.HotTopicsQuest
 No fail consequence!
 STOPPING QUEST _Game.Quests.Composed.ComposedQuest
@@ -1082,19 +509,27 @@ Finalize prev week quest
 KERNEL RESIZE!
 Starting content matrix algorithm...
 Loading content bulk...
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
 Awaiting content slices...
 MAKE INACTIVE
 MAKE INACTIVE
-Content Matrix took 18778ms. Details:
-Slices: 40
-Bulk:Total bulk size 634 items
-Reportables.NewsItemData size 523 items
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+Content Matrix took 11470ms. Details:
+Slices: 30
+Bulk:Total bulk size 437 items
+Reportables.NewsItemData size 326 items
 Reportables.Data.AdData size 111 items
-Rewarding 16700 of Sales
+Rewarding 50400 of Sales
 Rewarding 0 of Influence Points
-Rewarding 2505 of Money
+Rewarding 7560 of Money
 Rewarding -1 of Perception
-Paying monthly expense for October 1933: -2897.5
+Paying monthly expense for February: -4805
 Awaiting content matrix algorithm result...
 Content matrix algorithm finished!
 Area Map Recap: DoSequence
@@ -1104,113 +539,420 @@ Start Playback
 End Playback
 IAreaMapRecapEnd
 Setting pending quest at row 1
-Content Bulk: Released 634 items of unused content
-Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
-*** Generated 12 new applicants
-Set game shuffle from: Newstower8_Mid to Newstower3_Low
-Set mode to GameShuffle
-Print window start: Sunday 00:00, November 1933 end: Sunday 23:59, November 1933
-LastChanceToPrintEvent at Sunday 23:59, November 1933
-AutoSave event at Sunday 23:59, November 1933
-Success sequence done
-Remaining lockers:
-[--Full State--]
-(DisableOnPause, NoSave)
-
-[--Handlers--]
-TowerTime:
-()
-Confirm button disable
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Spawned reportableNew clubhouse for republican woman at Monday 03:25, November 1933
-Spawned reportableResort Town Devastated by Boardwalk Fire at Monday 11:50, November 1933
-Story file completed at Monday 17:22, November 1933
-Spawned reportableFactory Blaze Raises Questions at Monday 23:23, November 1933
-Story file completed at Tuesday 04:59, November 1933
-Story file completed at Tuesday 10:07, November 1933
-Story file completed at Tuesday 16:18, November 1933
-Story file completed at Wednesday 14:05, November 1933
-Story file completed at Wednesday 17:28, November 1933
-Spawned reportableLa Guardia Elected Mayor of New York at Wednesday 23:13, November 1933
-[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
-[Error  :XUnity.AutoTranslator] Failed: 'The numbers are in, looks like republican La Guardia won!
-Lets head to the City Hall and welcome our new Mayor.
-No time to waste'
-[Error  :XUnity.AutoTranslator] Failed: 'INVESTIGATION AFTER TRAGIC FIRE'
-[Error  :XUnity.AutoTranslator] Failed: 'AUTHORITY DEMANDS BIG'
-[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
-Spawned reportableGirl Scouts Baking Treats On Armistice Day at Thursday 01:10, November 1933
-Set game shuffle from: Newstower3_Low to Newstower3_Mid
-[Info   :XUnity.AutoTranslator] Re-enabled batching.
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Story file completed at Thursday 19:43, November 1933
-Story file completed at Thursday 20:02, November 1933
-Finalize complete
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Spawned reportableA pool for the president at Friday 02:51, November 1933
-Story file completed at Friday 07:03, November 1933
-Spawned reportable{mainAndSecondarySport} on {team} Trip at Friday 14:00, November 1933
-Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
-Story file completed at Saturday 02:08, November 1933
-Story file completed at Saturday 07:40, November 1933
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
-Story file completed at Sunday 07:12, November 1933
-Finalize complete
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Autosave entry was found
-Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
-ON WINDOW END
-Already auto saved for period November 1933
-Handling success sequence 49
-Set mode to Printing
-Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
-Devlivery complete
-StartOfMonthEvent at Monday 00:00, December 1933
-EndOfMonthEvent at Sunday 23:59, December 1933
-Content Bulk: Released 0 items of unused content
-World news count: 0
-KEEPING QUEST _Game.Quests.HotTopicsQuest
-KERNEL RESIZE!
-Starting content matrix algorithm...
-Loading content bulk...
-Awaiting content slices...
-Content Matrix took 19109ms. Details:
-Slices: 63
-Bulk:Total bulk size 632 items
-Reportables.NewsItemData size 521 items
-Reportables.Data.AdData size 111 items
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-Rewarding 28800 of Sales
-Rewarding 2 of Influence Points
-Rewarding 4320 of Money
-Rewarding 1 of Perception
-Paying monthly expense for November 1933: -2897.5
-Awaiting content matrix algorithm result...
-Content matrix algorithm finished!
-Area Map Recap: DoSequence
-RECAP DEACTIVATE
-Confirm button enable
-Start Playback
-End Playback
-Set mode to OptionsMenu
-Set mode to Printing
-IAreaMapRecapEnd
-Setting pending quest at row 1
-Spawned reportableLips that want to be kissed at Monday 00:00, December 1933
-Content Bulk: Released 632 items of unused content
+Spawned reportable Notary Office at Monday 00:00, March
+Content Bulk: Released 437 items of unused content
 Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
 *** Generated 12 new applicants
 Set game shuffle from: Newstower3_Mid to Newstower11_Low
 Set mode to GameShuffle
-Print window start: Sunday 00:00, December 1933 end: Sunday 23:59, December 1933
-LastChanceToPrintEvent at Sunday 23:59, December 1933
-AutoSave event at Sunday 23:59, December 1933
+Print window start: Sunday 00:00, March end: Sunday 23:59, March
+LastChanceToPrintEvent at Sunday 23:59, March
+AutoSave event at Sunday 23:59, March
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Confirm button disable
+Story file completed at Monday 00:34, March
+Story file completed at Monday 06:36, March
+Story file completed at Monday 15:56, March
+Spawned reportable{moviestar} Caught in Car {crash} at Monday 20:50, March
+Story file completed at Monday 22:06, March
+Story file completed at Monday 22:12, March
+Couldn't add item to dropoff slot
+DropOff slot count: 50 cap: 50 mutable: True
+Spawned reportable{politicsEventDescription} {politicsGroup} Shows Influence at Tuesday 03:24, March
+Story file completed at Tuesday 12:41, March
+Story file completed at Tuesday 15:09, March
+Story file completed at Tuesday 17:42, March
+Spawned reportableMetal market at Tuesday 22:49, March
+Spawned reportableCapitol on fire at Wednesday 09:48, March
+Spawned reportableBridge Collapse Kills {societyGroup} at Wednesday 10:47, March
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Story file completed at Wednesday 22:47, March
+Spawned reportable{mainAndSecondarySport} on {team} Trip at Thursday 03:31, March
+Set game shuffle from: Newstower11_Low to Newstower11_Mid
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Finalize complete
+Story file completed at Saturday 02:50, March
+Story file completed at Saturday 04:17, March
+Story file completed at Saturday 21:00, March
+Finalize complete
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Spawned reportableElevator problem in tall buildings at Sunday 15:02, March
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON LAST CHANCE TO PRINT
+Last chance window begin
+Already auto saved for period March
+ON WINDOW END
+Handling success sequence 101
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+StartOfMonthEvent at Monday 00:00, April
+EndOfMonthEvent at Sunday 23:59, April
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+Rewarding 33000 of Sales
+Rewarding 0 of Influence Points
+Rewarding 12450 of Money
+Rewarding 0 of Perception
+Paying monthly expense for March: -4805
+Awaiting content matrix algorithm result...
+Awaiting content slices...
+RECAP DEACTIVATE
+Content Matrix took 12752ms. Details:
+Slices: 60
+Bulk:Total bulk size 435 items
+Reportables.NewsItemData size 324 items
+Reportables.Data.AdData size 111 items
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+Confirm button enable
+Start Playback
+End Playback
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: 'People look at me and think life is one big piece of glamour and I don't mind that. Glamour sells and makes people pay attention.
+'
+[Error  :XUnity.AutoTranslator] Failed: 'The glamour of it all!'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Trying to spawn a reportable that is already present in the collection. It might already be archived
+Content Bulk: Released 435 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower11_Mid to Newstower8_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, April end: Sunday 23:59, April
+LastChanceToPrintEvent at Sunday 23:59, April
+AutoSave event at Sunday 23:59, April
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Confirm button disable
+Story file completed at Monday 06:20, April
+Spawned reportableIndustrial Fire Burnes Local Forest at Monday 11:12, April
+Story file completed at Monday 12:30, April
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+KERNEL RESIZE!
+Finalize complete
+Spawned reportable{spawnLocation} Theater's Figures {losing} at Tuesday 09:16, April
+Finalize complete
+Confirm button enable
+Confirm button disable
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Finalize complete
+Spawned reportableApartment Burned by Candle light at Wednesday 08:35, April
+Finalize complete
+KERNEL RESIZE!
+Story file completed at Thursday 10:42, April
+Set game shuffle from: Newstower8_Low to Newstower8_Mid
+Story file completed at Thursday 14:07, April
+KERNEL RESIZE!
+Story file completed at Thursday 17:45, April
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Finalize complete
+Spawned reportable{spawnLocation} {mainSport} Unfit at Saturday 09:06, April
+Spawned reportable{politicsGroup} Ready for last {debate}! at Saturday 12:02, April
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Sunday 14:04, April
+Story file completed at Sunday 19:38, April
+Story file completed at Sunday 20:24, April
+Story file completed at Sunday 21:15, April
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON LAST CHANCE TO PRINT
+Last chance window begin
+Already auto saved for period April
+ON WINDOW END
+Handling success sequence 102
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+StartOfMonthEvent at Monday 00:00, May
+EndOfMonthEvent at Sunday 23:59, May
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+Rewarding 46500 of Sales
+Rewarding 7 of Influence Points
+Rewarding 7975 of Money
+Rewarding 1 of Perception
+Paying monthly expense for April: -4905
+Awaiting content matrix algorithm result...
+RECAP DEACTIVATE
+Awaiting content slices...
+Content Matrix took 12603ms. Details:
+Slices: 58
+Bulk:Total bulk size 434 items
+Reportables.NewsItemData size 323 items
+Reportables.Data.AdData size 111 items
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+Confirm button enable
+Start Playback
+End Playback
+Paying out entry!
+Map reward payout, buildable unlock: Calendar Unlock Pair (Stock: -1, Unlock Mode: Set)
+IAreaMapRecapEnd
+Setting pending quest at row 2
+Setting pending quest at row 1
+Spawned reportableSharply priced for every distance at Monday 00:00, May
+Content Bulk: Released 434 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower8_Mid to Newstower3_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, May end: Sunday 23:59, May
+LastChanceToPrintEvent at Sunday 23:59, May
+AutoSave event at Sunday 23:59, May
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Confirm button disable
+Spawned reportable{mainSport} Champion Leads Double Life at Monday 10:05, May
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Confirm button enable
+Confirm button disable
+Spawned reportable{winning} {mainAndSecondarySport} at Tuesday 21:07, May
+Story file completed at Wednesday 02:31, May
+Story file completed at Wednesday 02:55, May
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Story file completed at Wednesday 11:39, May
+Finalize complete
+Story file completed at Thursday 04:18, May
+Set game shuffle from: Newstower3_Low to Newstower3_Mid
+Story file completed at Thursday 18:04, May
+Spawned reportable{crimeEventDescription} Animal {murder} at Thursday 22:47, May
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Spawned reportableAncestral Displacement at Friday 05:47, May
+Finalize complete
+Story file completed at Saturday 18:59, May
+Story file completed at Saturday 19:24, May
+Story file completed at Sunday 03:37, May
+Story file completed at Sunday 08:25, May
+Spawned reportableChildren of Darkness at Sunday 12:35, May
+Story file completed at Sunday 23:27, May
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON LAST CHANCE TO PRINT
+Last chance window begin
+Already auto saved for period May
+ON WINDOW END
+Handling success sequence 103
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+StartOfMonthEvent at Monday 00:00, June
+EndOfMonthEvent at Sunday 23:59, June
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+STOPPING QUEST _Game.Quests.Composed.ComposedQuest
+Finalize prev week quest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+Awaiting content slices...
+Content Matrix took 12788ms. Details:
+Slices: 58
+Bulk:Total bulk size 437 items
+Reportables.NewsItemData size 326 items
+Reportables.Data.AdData size 111 items
+Rewarding 17500 of Sales
+Rewarding 0 of Influence Points
+Rewarding 2625 of Money
+Rewarding -1 of Perception
+Paying monthly expense for May: -4905
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: 'The world hates change, yet it is the only thing that has brought progress. You just have to press through, publisher!'
+[Error  :XUnity.AutoTranslator] Failed: 'The golden hour!'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+IAreaMapRecapEnd
+Setting pending quest at row 2
+Setting pending quest at row 1
+Content Bulk: Released 437 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower3_Mid to Newstower11_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, June end: Sunday 23:59, June
+LastChanceToPrintEvent at Sunday 23:59, June
+AutoSave event at Sunday 23:59, June
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Confirm button disable
+Spawned reportableSerial Burglar Strikes Again at Monday 04:50, June
+Spawned reportable{societyGenericPerson} Hiking {lost} in {outdoors} at Monday 07:10, June
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Monday 11:03, June
+Story file completed at Monday 14:04, June
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+Finalize complete
+Story file completed at Monday 19:06, June
+Story file completed at Monday 20:58, June
+Spawned reportableWho is Stella Artos? at Monday 23:47, June
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Tuesday 07:42, June
+Story file completed at Tuesday 09:06, June
+Finalize complete
+Spawned reportableSocialist Surge: Working-Class Movement at Tuesday 13:47, June
+Story file completed at Tuesday 17:10, June
+Spawned reportableSports Fan {murder} at Tuesday 22:00, June
+Story file completed at Wednesday 00:12, June
+Finalize complete
+Finalize complete
+Finalize complete
+Story file completed at Wednesday 13:23, June
+Story file completed at Wednesday 13:24, June
+Finalize complete
+Finalize complete
+Story file completed at Thursday 03:39, June
+Set game shuffle from: Newstower11_Low to Newstower11_Mid
+Finalize complete
+Story file completed at Friday 06:12, June
+Spawned reportableBeacon of Hope? at Friday 11:04, June
+Finalize complete
+Story file completed at Saturday 02:41, June
+Spawned reportable{politicsPerson} Caught! at Saturday 22:08, June
+Spawned reportable{extortion}: {mainAndSecondarySport} at Sunday 00:43, June
+Bombing
+Story file completed at Sunday 06:05, June
+Story file completed at Sunday 08:36, June
+Story file completed at Sunday 13:33, June
+Spawned reportableAmerican Made at Sunday 14:34, June
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON LAST CHANCE TO PRINT
+Last chance window begin
+Already auto saved for period June
+ON WINDOW END
+Handling success sequence 104
+Stopping analytics since total successive failed attempts exceeded limit.
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, July
+EndOfMonthEvent at Sunday 23:59, July
+Content Bulk: Released 0 items of unused content
+World news count: 0
+KEEPING QUEST _Game.Quests.HotTopicsQuest
+No fail consequence!
+STOPPING QUEST _Game.Quests.Composed.ComposedQuest
+Finalize prev week quest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+Awaiting content slices...
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Content Matrix took 10909ms. Details:
+Slices: 29
+Bulk:Total bulk size 433 items
+Reportables.NewsItemData size 322 items
+Reportables.Data.AdData size 111 items
+Rewarding 62100 of Sales
+Rewarding 4 of Influence Points
+Rewarding 11315 of Money
+Rewarding 0 of Perception
+Paying monthly expense for June: -4905
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Spawned reportableSparkled Drinks for Everyone at Monday 00:00, July
+Content Bulk: Released 433 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower11_Mid to Newstower8_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, July end: Sunday 23:59, July
+LastChanceToPrintEvent at Sunday 23:59, July
+AutoSave event at Sunday 23:59, July
 Success sequence done
 Remaining lockers:
 [--Full State--]
@@ -1220,32 +962,584 @@ Remaining lockers:
 TowerTime:
 ()
 Confirm button disable
+Story file completed at Monday 02:49, July
+Story file completed at Monday 05:37, July
+Story file completed at Monday 12:05, July
+Spawned reportable{crimeGoods} Seized By {police} at Monday 13:22, July
+Story file completed at Monday 15:46, July
+Story file completed at Tuesday 03:40, July
+Story file completed at Tuesday 05:03, July
+Story file completed at Tuesday 18:18, July
+Story file completed at Tuesday 18:47, July
+Story file completed at Wednesday 10:29, July
+Spawned reportable{spawnLocation} Council Party at Wednesday 16:04, July
+Spawned reportablePolice Bust {crimeGroup} in {crimeLocation} at Thursday 00:12, July
+Spawned reportable{politicsEventDescription} {losing} at {politicalLocation} at Thursday 00:57, July
+Story file completed at Thursday 13:39, July
+Spawned reportableUnlawful {crimeEventDescription} {statistics} at Thursday 15:21, July
+Story file completed at Thursday 15:31, July
+Set game shuffle from: Newstower8_Low to Newstower8_Mid
+Spawned reportableDomestic Cannibalism?! at Thursday 21:03, July
+Story file completed at Friday 07:21, July
+Story file completed at Friday 11:59, July
+Story file completed at Friday 19:02, July
+Spawned reportableOrganized Lawlessness? at Saturday 01:14, July
+Story file completed at Saturday 06:12, July
+Spawned reportableAll Women in Chiffron at Saturday 09:06, July
+Spawned reportableWith {devastating} Drought Farmers {demand} {services} at Saturday 14:45, July
+Story file completed at Saturday 15:00, July
+Spawned reportableAuto Crashes at Saturday 20:00, July
 Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
-Spawned reportable{spawnLocation} {mainSport} Unfit at Monday 02:36, December 1933
-Spawned reportable{societyGenericPerson} Victim of {robbery} at Monday 07:32, December 1933
-Story file completed at Monday 20:20, December 1933
-Story file completed at Tuesday 01:04, December 1933
-Story file completed at Tuesday 02:41, December 1933
-Finalize complete
-Confirm button enable
-Confirm button disable
-Spawned reportableMURRY GUGGENHEIM MUST PAY GIFT TAX at Wednesday 02:36, December 1933
-Spawned reportableBoy Found Living in Forest at Wednesday 09:50, December 1933
-Finalize complete
-Story file completed at Thursday 08:35, December 1933
-Story file completed at Thursday 10:55, December 1933
-Set game shuffle from: Newstower11_Low to Newstower11_Mid
-Story file completed at Friday 04:55, December 1933
-Spawned reportableApartment Project at Friday 11:52, December 1933
-Story file completed at Friday 17:26, December 1933
-Spawned reportable{manufacturing} Halted at Saturday 21:43, December 1933
-Story file completed at Sunday 04:33, December 1933
+Story file completed at Sunday 00:27, July
+Spawned reportableYoung football player has fractured neck at Sunday 06:42, July
+Story file completed at Sunday 07:36, July
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Sunday 13:37, July
 Finalize complete
 Autosave entry was found
 Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON LAST CHANCE TO PRINT
+Last chance window begin
+Already auto saved for period July
 ON WINDOW END
-Already auto saved for period December 1933
-Handling success sequence 50
+Handling success sequence 105
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, August
+EndOfMonthEvent at Sunday 23:59, August
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+Awaiting content slices...
+Content Matrix took 11067ms. Details:
+Slices: 28
+Bulk:Total bulk size 428 items
+Reportables.NewsItemData size 317 items
+Reportables.Data.AdData size 111 items
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Rewarding 69600 of Sales
+Rewarding 3 of Influence Points
+Rewarding 15440 of Money
+Rewarding 1 of Perception
+Paying monthly expense for July: -4942.5
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Spawned reportableThe company that makes dreams at Monday 00:00, August
+Spawned reportableFor American Ideals at Monday 00:00, August
+Content Bulk: Released 428 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower8_Mid to Newstower3_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, August end: Sunday 23:59, August
+LastChanceToPrintEvent at Sunday 23:59, August
+AutoSave event at Sunday 23:59, August
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Story file completed at Monday 00:56, August
+Story file completed at Monday 01:41, August
+Story file completed at Monday 05:21, August
+Spawned reportable{spawnLocation} Theater's Figures {losing} at Monday 10:17, August
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Monday 18:46, August
+Finalize complete
+Finalize complete
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Story file completed at Wednesday 01:29, August
+Spawned reportable{mainSport} Champion Leads Double Life at Wednesday 06:52, August
+Story file completed at Wednesday 15:41, August
+Story file completed at Wednesday 19:32, August
+Spawned reportable{entertainmentLocation}: {shocks} Foundation at Wednesday 21:43, August
+Story file completed at Thursday 12:57, August
+Story file completed at Thursday 14:18, August
+Set game shuffle from: Newstower3_Low to Newstower3_Mid
+Story file completed at Friday 06:05, August
+Spawned reportable{commotion} in {politicalLocation}? at Saturday 00:55, August
+Story file completed at Saturday 04:41, August
+Spawned reportableWarehouse Blaze Sparks Economic Woes at Saturday 12:58, August
+Story file completed at Saturday 15:21, August
+Story file completed at Sunday 04:38, August
+Story file completed at Sunday 10:25, August
+Spawned reportable{societyGenericPerson} Hiking {lost} in {outdoors} at Sunday 10:34, August
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Spawned reportable{competition} in {standoff} at Sunday 18:48, August
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON LAST CHANCE TO PRINT
+Last chance window begin
+Already auto saved for period August
+ON WINDOW END
+Handling success sequence 106
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, September
+EndOfMonthEvent at Sunday 23:59, September
+Can't dump because of no dump flag
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+Awaiting content slices...
+Content Matrix took 10871ms. Details:
+Slices: 28
+Bulk:Total bulk size 422 items
+Reportables.NewsItemData size 311 items
+Reportables.Data.AdData size 111 items
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Rewarding 38200 of Sales
+Rewarding 0 of Influence Points
+Rewarding 11730 of Money
+Rewarding 0 of Perception
+Paying monthly expense for August: -4942.5
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Content Bulk: Released 422 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower3_Mid to Newstower11_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, September end: Sunday 23:59, September
+LastChanceToPrintEvent at Sunday 23:59, September
+AutoSave event at Sunday 23:59, September
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Story file completed at Monday 01:51, September
+Story file completed at Monday 02:18, September
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Monday 07:31, September
+Story file completed at Monday 07:53, September
+Spawned reportablePolice Bust {crimeGroup} in {crimeLocation} at Monday 09:55, September
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Spawned reportableIncreased Penalties Act at Monday 12:55, September
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Tuesday 00:44, September
+Finalize complete
+Finalize complete
+Spawned reportableWelfare Strained in Economic Hardship at Tuesday 05:27, September
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Story file completed at Wednesday 10:34, September
+Story file completed at Wednesday 12:13, September
+Story file completed at Wednesday 15:22, September
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Finalize complete
+Story file completed at Wednesday 22:34, September
+Set game shuffle from: Newstower11_Low to Newstower11_Mid
+Story file completed at Thursday 14:03, September
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Bombing
+Story file completed at Thursday 18:37, September
+Spawned reportable{spawnLocation} {mainSport} Unfit at Thursday 23:44, September
+Story file completed at Friday 00:47, September
+Spawned reportableResource Scarcity Troubling at Friday 05:48, September
+Story file completed at Friday 06:42, September
+Story file completed at Friday 14:45, September
+Spawned reportableUnlawful {crimeEventDescription} {statistics} at Friday 15:30, September
+Story file completed at Friday 21:00, September
+Story file completed at Friday 21:33, September
+Story file completed at Saturday 14:58, September
+Story file completed at Saturday 20:21, September
+Story file completed at Saturday 21:41, September
+Spawned reportableUnderdog Defies All Odds at Sunday 01:07, September
+Spawned reportableQuick-Thinking Tellers Foil Robbers at Sunday 02:41, September
+Finalize complete
+Story file completed at Sunday 12:52, September
+Story file completed at Sunday 14:41, September
+Story file completed at Sunday 20:06, September
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON LAST CHANCE TO PRINT
+Last chance window begin
+Already auto saved for period September
+ON WINDOW END
+Handling success sequence 107
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, October
+EndOfMonthEvent at Sunday 23:59, October
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+MAKE INACTIVE
+MAKE INACTIVE
+Awaiting content slices...
+Content Matrix took 11222ms. Details:
+Slices: 27
+Bulk:Total bulk size 421 items
+Reportables.NewsItemData size 310 items
+Reportables.Data.AdData size 111 items
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Rewarding 59800 of Sales
+Rewarding 6 of Influence Points
+Rewarding 8970 of Money
+Rewarding 1 of Perception
+Paying monthly expense for September: -5042.5
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Paying out entry!
+Map reward payout, buildable unlock: Wide Lamp Unlock Pair (Stock: -1, Unlock Mode: Set)
+Paying out entry!
+Map reward payout, buildable unlock: Justice Scale Unlock Pair (Stock: -1, Unlock Mode: Set)
+Paying out entry!
+Map reward payout, buildable unlock: Gumball Machine Unlock Pair (Stock: -1, Unlock Mode: Set)
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Spawned reportableDress to Impress at Monday 00:00, October
+Content Bulk: Released 421 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower11_Mid to Newstower8_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, October end: Sunday 23:59, October
+LastChanceToPrintEvent at Sunday 23:59, October
+AutoSave event at Sunday 23:59, October
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Spawned reportable{politicsEventDescription} {politicsGroup} Shows Influence at Monday 03:10, October
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Story file completed at Monday 11:25, October
+Story file completed at Monday 13:11, October
+Story file completed at Monday 13:56, October
+Story file completed at Monday 15:20, October
+Finalize complete
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Spawned reportable{crimeGoods} Seized By {police} at Monday 19:56, October
+Finalize complete
+Spawned reportable{entertainmentDescription} {artisticExpression} {show} Tour! at Monday 22:59, October
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Tuesday 11:25, October
+Story file completed at Tuesday 12:17, October
+Story file completed at Tuesday 18:50, October
+Story file completed at Tuesday 20:29, October
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Finalize complete
+Spawned reportable{spawnLocation} Mayor {losing} {campaign} at Wednesday 01:32, October
+Spawned reportableTightening Lendings Standards at Wednesday 03:06, October
+Story file completed at Wednesday 16:37, October
+Story file completed at Wednesday 18:05, October
+Story file completed at Wednesday 20:17, October
+Story file completed at Thursday 01:05, October
+Spawned reportableWarehouse Blaze Sparks Economic Woes at Thursday 05:54, October
+Story file completed at Thursday 10:49, October
+Set game shuffle from: Newstower8_Low to Newstower8_Mid
+Story file completed at Thursday 17:22, October
+Finalize complete
+Finalize complete
+Story file completed at Thursday 20:03, October
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+Finalize complete
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Finalize complete
+Finalize complete
+Spawned reportableChief Justice Resigned at Friday 22:28, October
+Spawned reportableCold Weather Drives Winter Apparel at Saturday 04:20, October
+Story file completed at Saturday 12:31, October
+Spawned reportable{economyLocationDescription} {factoryLocation} in {economicCrisis} at Saturday 17:23, October
+Story file completed at Saturday 19:57, October
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Spawned reportableGoddess Movie at Sunday 04:04, October
+Finalize complete
+Finalize complete
+Story file completed at Sunday 18:15, October
+Story file completed at Sunday 22:01, October
+Spawned reportableThrills & Chills at Sunday 22:56, October
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON LAST CHANCE TO PRINT
+Last chance window begin
+Already auto saved for period October
+ON WINDOW END
+Handling success sequence 108
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, November
+EndOfMonthEvent at Sunday 23:59, November
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+Added Record Sales contributor
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Awaiting content slices...
+Rewarding 83300 of Sales
+Rewarding 1 of Influence Points
+Rewarding 17495 of Money
+Rewarding 0 of Perception
+Paying monthly expense for October: -5167.5
+Awaiting content matrix algorithm result...
+Content Matrix took 10467ms. Details:
+Slices: 27
+Bulk:Total bulk size 417 items
+Reportables.NewsItemData size 306 items
+Reportables.Data.AdData size 111 items
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Spawned reportableGood care of goods at Monday 00:00, November
+Spawned reportableDress to Impress at Monday 00:00, November
+Spawned reportableLips that want to be kissed at Monday 00:00, November
+Content Bulk: Released 417 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower8_Mid to Newstower3_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, November end: Sunday 23:59, November
+LastChanceToPrintEvent at Sunday 23:59, November
+AutoSave event at Sunday 23:59, November
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Finalize complete
+Finalize complete
+User chose PLANE
+Story file completed at Monday 22:57, November
+Story file completed at Tuesday 00:46, November
+Spawned reportable{societyGenericPerson} Hiking {lost} in {outdoors} at Tuesday 05:17, November
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Spawned reportable{spawnLocation} Theater's Figures {losing} at Tuesday 11:10, November
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Wednesday 03:26, November
+Story file completed at Wednesday 04:03, November
+Story file completed at Wednesday 04:26, November
+Finalize complete
+Story file completed at Wednesday 07:14, November
+Finalize complete
+Spawned reportable{spawnLocation} {mainSport} Unfit at Wednesday 12:19, November
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Spawned reportableIndustrial Fire Burnes Local Forest at Wednesday 20:17, November
+Story file completed at Thursday 02:41, November
+Story file completed at Thursday 10:59, November
+Set game shuffle from: Newstower3_Low to Newstower3_Mid
+Story file completed at Thursday 14:43, November
+Story file completed at Thursday 16:00, November
+Finalize complete
+Spawned reportableWelfare Strained in Economic Hardship at Friday 02:27, November
+Story file completed at Friday 12:42, November
+Story file completed at Friday 14:52, November
+Story file completed at Friday 23:00, November
+Spawned reportableBank Heist Bloodbath at Friday 23:27, November
+Story file completed at Saturday 02:15, November
+Finalize complete
+Spawned reportableBridge Collapse Kills {societyGroup} at Saturday 10:11, November
+Story file completed at Saturday 13:52, November
+Story file completed at Saturday 23:43, November
+Story file completed at Sunday 02:12, November
+Story file completed at Sunday 03:34, November
+Story file completed at Sunday 04:15, November
+Spawned reportableJewelry store robbed at Sunday 07:30, November
+Spawned reportableLetter sold for $3200 at Sunday 09:11, November
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Story file completed at Sunday 17:08, November
+Already auto saved for period November
+Handling success sequence 109
+Set mode to Printing
+Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
+Devlivery complete
+StartOfMonthEvent at Monday 00:00, December
+EndOfMonthEvent at Sunday 23:59, December
+Content Bulk: Released 0 items of unused content
+World news count: 0
+STOPPING QUEST _Game.Quests.HotTopicsQuest
+KERNEL RESIZE!
+Starting content matrix algorithm...
+Loading content bulk...
+Awaiting content slices...
+Content Matrix took 11037ms. Details:
+Slices: 26
+Bulk:Total bulk size 416 items
+Reportables.NewsItemData size 305 items
+Reportables.Data.AdData size 111 items
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+Rewarding 39900 of Sales
+Rewarding 7 of Influence Points
+Rewarding 7985 of Money
+Rewarding 0 of Perception
+Paying monthly expense for November: -5267.5
+Awaiting content matrix algorithm result...
+Content matrix algorithm finished!
+Area Map Recap: DoSequence
+RECAP DEACTIVATE
+Confirm button enable
+Start Playback
+End Playback
+Paying out entry!
+Map reward payout, buildable unlock: Lady Of Justice Statue Unlock Pair (Stock: -1, Unlock Mode: Set)
+IAreaMapRecapEnd
+Setting pending quest at row 1
+Spawned reportableSharply priced for every distance at Monday 00:00, December
+Spawned reportableFor every Handyman at Monday 00:00, December
+Spawned reportableBanking made safe again at Monday 00:00, December
+Content Bulk: Released 416 items of unused content
+Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
+*** Generated 12 new applicants
+Set game shuffle from: Newstower3_Mid to Newstower11_Low
+Set mode to GameShuffle
+Print window start: Sunday 00:00, December end: Sunday 23:59, December
+LastChanceToPrintEvent at Sunday 23:59, December
+AutoSave event at Sunday 23:59, December
+Success sequence done
+Remaining lockers:
+[--Full State--]
+(DisableOnPause, NoSave)
+
+[--Handlers--]
+TowerTime:
+()
+Confirm button disable
+Story file completed at Monday 02:36, December
+Spawned reportable{entertainmentLocation}: {shocks} Foundation at Monday 04:46, December
+Spawned reportable{hospital} or {church}? at Monday 10:46, December
+Story file completed at Monday 13:31, December
+Story file completed at Monday 14:57, December
+Spawned reportableResource Scarcity Troubling at Monday 18:29, December
+Story file completed at Monday 20:27, December
+Finalize complete
+Finalize complete
+Story file completed at Tuesday 15:35, December
+Story file completed at Tuesday 20:25, December
+Finalize complete
+Story file completed at Tuesday 21:25, December
+Finalize complete
+Story file completed at Tuesday 22:42, December
+Spawned reportable{spawnLocation}'s {crimeCircumstances} Crime at Wednesday 06:24, December
+Story file completed at Wednesday 18:56, December
+Story file completed at Thursday 00:00, December
+Spawned reportable{politicsEventDescription} {politicsGroup} Shows Influence at Thursday 00:01, December
+Set game shuffle from: Newstower11_Low to Newstower11_Mid
+Story file completed at Thursday 14:51, December
+Story file completed at Thursday 17:49, December
+Story file completed at Thursday 17:57, December
+Spawned reportableFarmers Face Crop Failures Amidst Drought at Friday 14:02, December
+Story file completed at Friday 14:06, December
+Finalize complete
+Spawned reportableRum-running Routes at Friday 18:57, December
+Finalize complete
+Story file completed at Saturday 02:31, December
+Story file completed at Saturday 08:18, December
+Spawned reportable{products} {supply} Production in {economicCrisis} at Saturday 13:13, December
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Saturday 17:41, December
+Finalize complete
+Story file completed at Saturday 21:21, December
+Spawned reportable{critiquePositive} New {entertainmentLocation} {opened} at Sunday 01:45, December
+Story file completed at Sunday 02:50, December
+Autosave entry was found
+Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
+ON WINDOW END
+Story file completed at Sunday 05:15, December
+Already auto saved for period December
+Handling success sequence 110
 Set mode to Printing
 Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
 Devlivery complete
@@ -1253,22 +1547,21 @@ StartOfMonthEvent at Monday 00:00, January
 EndOfMonthEvent at Sunday 23:59, January
 Content Bulk: Released 0 items of unused content
 World news count: 0
-STOPPING QUEST _Game.Quests.HotTopicsQuest
-TowerScore written to disk: C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.tsc
+KEEPING QUEST _Game.Quests.HotTopicsQuest
 KERNEL RESIZE!
 Starting content matrix algorithm...
 Loading content bulk...
 Awaiting content slices...
-Content Matrix took 19181ms. Details:
-Slices: 63
-Bulk:Total bulk size 564 items
-Reportables.NewsItemData size 453 items
+Content Matrix took 10134ms. Details:
+Slices: 27
+Bulk:Total bulk size 413 items
+Reportables.NewsItemData size 302 items
 Reportables.Data.AdData size 111 items
-Rewarding 18300 of Sales
+Rewarding 53400 of Sales
 Rewarding 0 of Influence Points
-Rewarding 3745 of Money
+Rewarding 15010 of Money
 Rewarding -1 of Perception
-Paying monthly expense for December 1933: -2897.5
+Paying monthly expense for December: -5267.5
 Awaiting content matrix algorithm result...
 Content matrix algorithm finished!
 Area Map Recap: DoSequence
@@ -1278,8 +1571,8 @@ Start Playback
 End Playback
 IAreaMapRecapEnd
 Setting pending quest at row 1
-Spawned reportableDress to impress  at Monday 00:00, January
-Content Bulk: Released 564 items of unused content
+Spawned reportableLips that want to be kissed at Monday 00:00, January
+Content Bulk: Released 413 items of unused content
 Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
 *** Generated 12 new applicants
 Set game shuffle from: Newstower11_Mid to Newstower8_Low
@@ -1296,38 +1589,49 @@ Remaining lockers:
 TowerTime:
 ()
 Confirm button disable
-Confirm button enable
-Confirm button disable
-Story file completed at Monday 22:07, January
-Spawned reportable{crimeGoods} Seized By {police} at Monday 23:02, January
-Story file completed at Tuesday 02:06, January
-Spawned reportableSports Fan {murder} at Tuesday 06:33, January
-Finalize complete
-Finalize complete
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Monday 15:22, January
+Story file completed at Monday 17:14, January
+Story file completed at Tuesday 02:48, January
+Spawned reportableWarehouse Blaze Sparks Economic Woes at Tuesday 05:32, January
+Spawned reportableGoverment Building Engulfed Amid Arson Suspicions at Tuesday 20:57, January
+Story file completed at Tuesday 22:00, January
+Story file completed at Wednesday 15:44, January
+Story file completed at Wednesday 16:10, January
 [Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-Story file completed at Wednesday 07:04, January
-Story file completed at Wednesday 08:26, January
-Story file completed at Wednesday 10:54, January
-Spawned reportable12 Angry Men at Wednesday 22:14, January
-Story file completed at Thursday 06:43, January
-Story file completed at Thursday 15:26, January
-Spawned reportableResource Scarcity Troubling at Thursday 16:43, January
+Finalize complete
+Spawned reportableParamount Theatre Closes at Wednesday 20:39, January
+Spawned reportable{entertainmentPrefix} Movie Sequel In The Works at Thursday 00:20, January
 Set game shuffle from: Newstower8_Low to Newstower8_Mid
-Story file completed at Friday 08:47, January
-Story file completed at Friday 09:41, January
-Spawned reportableThe moon moves at Friday 16:04, January
-Story file completed at Saturday 10:01, January
-Spawned reportable"Where others Fall we Rise" at Saturday 20:00, January
+Story file completed at Thursday 16:10, January
+Story file completed at Thursday 18:46, January
+Spawned reportable{politicsPerson} Caught! at Thursday 21:21, January
+Lawuit worked out!
+Story file completed at Friday 10:52, January
+Story file completed at Saturday 00:22, January
+Finalize complete
+Spawned reportableHoboken Deals at Saturday 04:47, January
+Spawned reportable{crimeGoods} Seized By {police} at Saturday 12:34, January
+Story file completed at Saturday 14:26, January
+Story file completed at Sunday 01:23, January
+Story file completed at Sunday 03:08, January
+Finalize complete
+Story file completed at Sunday 15:30, January
+Story file completed at Sunday 17:35, January
+Spawned reportableBoy killed himself with gun at Sunday 21:33, January
 Autosave entry was found
 Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
-ON WINDOW END
+ON LAST CHANCE TO PRINT
+Last chance window begin
 Already auto saved for period January
-Handling success sequence 51
+ON WINDOW END
+Handling success sequence 111
 Set mode to Printing
 Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
 Devlivery complete
 StartOfMonthEvent at Monday 00:00, February
 EndOfMonthEvent at Sunday 23:59, February
+********** Research finalized but the researcher wasn't researching or index out of bounds. Probably dueto a researcher finishing it's work while the pool was being cleared.Removing researcher!
 Content Bulk: Released 0 items of unused content
 World news count: 0
 STOPPING QUEST _Game.Quests.HotTopicsQuest
@@ -1335,19 +1639,19 @@ KERNEL RESIZE!
 Starting content matrix algorithm...
 Loading content bulk...
 Awaiting content slices...
-Content Matrix took 17329ms. Details:
-Slices: 63
-Bulk:Total bulk size 560 items
-Reportables.NewsItemData size 449 items
+Content Matrix took 10001ms. Details:
+Slices: 26
+Bulk:Total bulk size 413 items
+Reportables.NewsItemData size 302 items
 Reportables.Data.AdData size 111 items
 The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
 The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
 The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-Rewarding 18500 of Sales
-Rewarding 0 of Influence Points
-Rewarding 3775 of Money
-Rewarding 0 of Perception
-Paying monthly expense for January: -2922.5
+Rewarding 66000 of Sales
+Rewarding 3 of Influence Points
+Rewarding 10900 of Money
+Rewarding 1 of Perception
+Paying monthly expense for January: -5305
 Awaiting content matrix algorithm result...
 Content matrix algorithm finished!
 Area Map Recap: DoSequence
@@ -1355,13 +1659,11 @@ RECAP DEACTIVATE
 Confirm button enable
 Start Playback
 End Playback
-[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
-[Error  :XUnity.AutoTranslator] Failed: 'I'm about to obtain pier leases and buy a new shipping company. Freight some of these "unknown" spirited liquids across the tides.'
-[Error  :XUnity.AutoTranslator] Failed: 'You've got to turn with the tides'
-[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
 IAreaMapRecapEnd
 Setting pending quest at row 1
-Content Bulk: Released 560 items of unused content
+Spawned reportableYour mother's choice! at Monday 00:00, February
+Spawned reportableIs it a bird, is it a plane? at Monday 00:00, February
+Content Bulk: Released 413 items of unused content
 Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
 *** Generated 12 new applicants
 Set game shuffle from: Newstower8_Mid to Newstower3_Low
@@ -1378,33 +1680,50 @@ Remaining lockers:
 TowerTime:
 ()
 Confirm button disable
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Story file completed at Monday 16:47, February
-[Info   :XUnity.AutoTranslator] Re-enabled batching.
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-Spawned reportable{new} {mainSport} {athlete} {spotted} at Monday 22:52, February
-Story file completed at Tuesday 17:14, February
-Instructor InstructorFramework.Macros.OldNewsHintInstructor has stopped, success: False
-Spawned reportableSearching for pilots! at Wednesday 17:34, February
-Story file completed at Thursday 10:15, February
-Story file completed at Thursday 11:01, February
-Set game shuffle from: Newstower3_Low to Newstower3_Mid
+Spawned reportable{politicsEventDescription} {politicsGroup} Shows Influence at Monday 00:27, February
+Story file completed at Monday 13:51, February
+Story file completed at Monday 13:53, February
+Spawned reportable{spawnLocation} Monthly Polls at Monday 18:29, February
+Story file completed at Tuesday 08:19, February
+Story file completed at Tuesday 10:30, February
+Spawned reportable{products} {supply} Production in {economicCrisis} at Tuesday 19:24, February
+Story file completed at Tuesday 20:15, February
+Spawned reportable{mainAndSecondarySport} on {team} Trip at Wednesday 01:24, February
+Story file completed at Wednesday 02:18, February
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Wednesday 15:37, February
+Story file completed at Wednesday 15:47, February
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
 Finalize complete
-Spawned reportable{spawnLocation} Theater's Figures {losing} at Friday 02:48, February
-Story file completed at Friday 13:16, February
-Spawned reportableBoxer Accuses Opponent of Sneaking in Extra Arms at Friday 19:50, February
-Story file completed at Friday 23:45, February
-Spawned reportable{societyGroup} {lost} for days in {outdoors} at Saturday 06:02, February
-Story file completed at Saturday 15:40, February
-Story file completed at Saturday 21:23, February
-Spawned reportableTax Turmoil: Struggling Middle Class at Saturday 22:35, February
+Story file completed at Wednesday 22:22, February
+Story file completed at Thursday 06:46, February
+Set game shuffle from: Newstower3_Low to Newstower3_Mid
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Spawned reportableGolden Umbrella at Thursday 14:51, February
+Story file completed at Thursday 16:34, February
+Spawned reportableHighschool Plagued by Protestant Demonstrations Against Evolution Theory at Thursday 18:59, February
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Friday 12:12, February
+Story file completed at Friday 13:57, February
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Spawned reportable{sportsPrefixDescription} {mainAndSecondarySport} {sportsRecord} {broken} at Friday 18:47, February
+Spawned reportable{spawnLocation} {crimeGroup} {crimeArrested} at Friday 20:18, February
+Spawned reportableNew films on Broadway at Saturday 00:09, February
+Story file completed at Saturday 07:44, February
+Story file completed at Saturday 09:33, February
+Spawned reportable{entertainmentPrefix} {genres} {entertainmentMedium} {coming} at Saturday 14:15, February
+Spawned reportable{spawnLocation}'s embarrassment at Saturday 16:12, February
+Story file completed at Saturday 19:56, February
+Spawned reportable{importantPerson} {opens} New {buildingLocation} at Sunday 00:55, February
 Finalize complete
 Autosave entry was found
 Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
 ON WINDOW END
-Story file completed at Sunday 14:48, February
 Already auto saved for period February
-Handling success sequence 52
+Handling success sequence 112
 Set mode to Printing
 Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
 Devlivery complete
@@ -1412,27 +1731,28 @@ StartOfMonthEvent at Monday 00:00, March
 EndOfMonthEvent at Sunday 23:59, March
 Content Bulk: Released 0 items of unused content
 World news count: 0
-KEEPING QUEST _Game.Quests.HotTopicsQuest
+STOPPING QUEST _Game.Quests.HotTopicsQuest
 KERNEL RESIZE!
 Starting content matrix algorithm...
 Loading content bulk...
 MAKE INACTIVE
 MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
+MAKE INACTIVE
 Awaiting content slices...
-Content Matrix took 17354ms. Details:
-Slices: 63
-Bulk:Total bulk size 557 items
-Reportables.NewsItemData size 446 items
-Reportables.Data.AdData size 111 items
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-Rewarding 26500 of Sales
-Rewarding 0 of Influence Points
-Rewarding 3975 of Money
-Rewarding -1 of Perception
-Paying monthly expense for February: -2960
+Rewarding 69500 of Sales
+Rewarding 15 of Influence Points
+Rewarding 12425 of Money
+Rewarding 0 of Perception
+Paying monthly expense for February: -5405
 Awaiting content matrix algorithm result...
+Content Matrix took 9818ms. Details:
+Slices: 25
+Bulk:Total bulk size 406 items
+Reportables.NewsItemData size 295 items
+Reportables.Data.AdData size 111 items
 Content matrix algorithm finished!
 Area Map Recap: DoSequence
 RECAP DEACTIVATE
@@ -1441,15 +1761,15 @@ Start Playback
 End Playback
 IAreaMapRecapEnd
 Setting pending quest at row 1
-Spawned reportable Notary Office at Monday 00:00, March
-Content Bulk: Released 557 items of unused content
+Spawned reportableThe company that makes dreams at Monday 00:00, March
+Content Bulk: Released 406 items of unused content
 Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
 *** Generated 12 new applicants
 Set game shuffle from: Newstower3_Mid to Newstower11_Low
 Set mode to GameShuffle
 Print window start: Sunday 00:00, March end: Sunday 23:59, March
-LastChanceToPrintEvent at Sunday 23:59, March
 AutoSave event at Sunday 23:59, March
+LastChanceToPrintEvent at Sunday 23:59, March
 Success sequence done
 Remaining lockers:
 [--Full State--]
@@ -1459,29 +1779,60 @@ Remaining lockers:
 TowerTime:
 ()
 Confirm button disable
-Finalize complete
+Story file completed at Monday 13:02, March
+Story file completed at Monday 13:58, March
+Story file completed at Monday 14:01, March
+Spawned reportableSoup Kitchen Expansion at Monday 17:30, March
+Spawned reportableGoverment Building Engulfed Amid Arson Suspicions at Monday 18:51, March
+Spawned reportableUnlawful {crimeEventDescription} {statistics} at Tuesday 00:44, March
+Story file completed at Tuesday 07:10, March
+Story file completed at Tuesday 09:36, March
+Story file completed at Tuesday 10:29, March
+Story file completed at Tuesday 11:12, March
+Story file completed at Tuesday 12:05, March
+Story file completed at Tuesday 17:17, March
 [Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-Story file completed at Monday 22:01, March
-Story file completed at Tuesday 09:29, March
-Spawned reportableWarehouse Blaze Sparks Economic Woes at Tuesday 10:54, March
-Story file completed at Wednesday 05:22, March
-Spawned reportableUnlawful {crimeEventDescription} {statistics} at Wednesday 15:34, March
-Story file completed at Thursday 08:53, March
-Story file completed at Thursday 10:29, March
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Story file completed at Wednesday 22:26, March
+Story file completed at Thursday 02:24, March
+Confirm button enable
+Confirm button disable
+Story file completed at Thursday 06:27, March
+Story file completed at Thursday 07:48, March
+Paying out entry!
+Map reward payout, buildable unlock: Desk Pencils Unlock Pair (Stock: -1, Unlock Mode: Set)
+Paying out entry!
+Map reward payout, buildable unlock: Paint Can Cabinet Unlock Pair (Stock: -1, Unlock Mode: Set)
+Spawned reportableResource Scarcity Troubling at Thursday 10:21, March
+Paying out entry!
+Map reward payout, buildable unlock: Painting Easel Unlock Pair (Stock: -1, Unlock Mode: Set)
 Set game shuffle from: Newstower11_Low to Newstower11_Mid
-Spawned reportable$125,000 For Bridle Paths at Thursday 15:47, March
-Spawned reportableBig Plane Crash at Thursday 19:36, March
-Story file completed at Friday 09:47, March
-Story file completed at Friday 09:59, March
-Story file completed at Sunday 10:39, March
-Spawned reportableWho's The Next Mayor Of {spawnLocation}? at Sunday 19:51, March
+Spawned reportable{spawnLocation} Theater's Figures {losing} at Thursday 16:00, March
+Finalize complete
+Story file completed at Thursday 23:57, March
+Story file completed at Friday 01:20, March
+KERNEL RESIZE!
+KERNEL RESIZE!
+KERNEL RESIZE!
+KERNEL RESIZE!
+Spawned reportableVeterans Out in the Cold at Friday 07:30, March
+[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
+Finalize complete
+Finalize complete
+Story file completed at Saturday 04:38, March
+Story file completed at Saturday 05:30, March
+Story file completed at Saturday 10:53, March
+Finalize complete
+Story file completed at Saturday 21:52, March
+Story file completed at Sunday 01:33, March
+Spawned reportable{politicalLocation} Ablaze! at Sunday 03:03, March
+Spawned reportableRadio Becoming Household Necessity at Sunday 06:18, March
 Autosave entry was found
 Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
-ON LAST CHANCE TO PRINT
-Last chance window begin
-Already auto saved for period March
 ON WINDOW END
-Handling success sequence 53
+Story file completed at Sunday 17:18, March
+Already auto saved for period March
+Handling success sequence 113
 Set mode to Printing
 Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
 Devlivery complete
@@ -1489,26 +1840,25 @@ StartOfMonthEvent at Monday 00:00, April
 EndOfMonthEvent at Sunday 23:59, April
 Content Bulk: Released 0 items of unused content
 World news count: 0
-STOPPING QUEST _Game.Quests.HotTopicsQuest
+KEEPING QUEST _Game.Quests.HotTopicsQuest
 KERNEL RESIZE!
 Starting content matrix algorithm...
 Loading content bulk...
-MAKE INACTIVE
-MAKE INACTIVE
-MAKE INACTIVE
-MAKE INACTIVE
 Awaiting content slices...
-Rewarding 24500 of Sales
-Rewarding 0 of Influence Points
-Rewarding 4675 of Money
-Rewarding 1 of Perception
-Paying monthly expense for March: -2960
-Awaiting content matrix algorithm result...
-Content Matrix took 17672ms. Details:
-Slices: 63
-Bulk:Total bulk size 555 items
-Reportables.NewsItemData size 444 items
+Content Matrix took 9734ms. Details:
+Slices: 26
+Bulk:Total bulk size 406 items
+Reportables.NewsItemData size 295 items
 Reportables.Data.AdData size 111 items
+The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
+Rewarding 48600 of Sales
+Rewarding 0 of Influence Points
+Rewarding 9790 of Money
+Rewarding 0 of Perception
+Paying monthly expense for March: -5442.5
+Awaiting content matrix algorithm result...
 Content matrix algorithm finished!
 Area Map Recap: DoSequence
 RECAP DEACTIVATE
@@ -1517,14 +1867,16 @@ Start Playback
 End Playback
 IAreaMapRecapEnd
 Setting pending quest at row 1
-Content Bulk: Released 555 items of unused content
+Spawned reportableDress to impress  at Monday 00:00, April
+Spawned reportableFly like royalty would at Monday 00:00, April
+Content Bulk: Released 406 items of unused content
 Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
 *** Generated 12 new applicants
 Set game shuffle from: Newstower11_Mid to Newstower8_Low
 Set mode to GameShuffle
 Print window start: Sunday 00:00, April end: Sunday 23:59, April
-LastChanceToPrintEvent at Sunday 23:59, April
 AutoSave event at Sunday 23:59, April
+LastChanceToPrintEvent at Sunday 23:59, April
 Success sequence done
 Remaining lockers:
 [--Full State--]
@@ -1534,248 +1886,93 @@ Remaining lockers:
 TowerTime:
 ()
 Confirm button disable
-Confirm button enable
-Confirm button disable
-Story file completed at Monday 15:33, April
-Paying out entry!
-Map reward payout, buildable unlock: Veiled Lady Painting Unlock Pair (Stock: 1, Unlock Mode: Set)
-Spawned reportableTwo Copper Mines Flooded at Tuesday 02:10, April
-Spawned reportableThriller Meets Reality at Tuesday 23:05, April
-Spawned reportableMore pilots needed at Wednesday 07:38, April
-Story file completed at Wednesday 20:21, April
-Story file completed at Wednesday 22:41, April
-Spawned reportableSchool of the Air Radio at Thursday 02:34, April
-Set game shuffle from: Newstower8_Low to Newstower8_Mid
-Story file completed at Thursday 19:21, April
-Story file completed at Thursday 21:34, April
-Finalize complete
-Spawned reportableDetective trails at Friday 04:42, April
-Spawned reportable{politicsEventDescription} {politicsGroup} Shows Influence at Saturday 04:08, April
-Story file completed at Saturday 11:29, April
-Spawned reportableVOTE FRAUD INQUIRY at Sunday 05:52, April
-Story file completed at Sunday 11:19, April
-Autosave entry was found
-Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
-ON LAST CHANCE TO PRINT
-Last chance window begin
-Already auto saved for period April
-ON WINDOW END
-Handling success sequence 54
-Set mode to Printing
-Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
-Devlivery complete
-StartOfMonthEvent at Monday 00:00, May
-EndOfMonthEvent at Sunday 23:59, May
-Content Bulk: Released 0 items of unused content
-World news count: 0
-STOPPING QUEST _Game.Quests.HotTopicsQuest
-KERNEL RESIZE!
-Starting content matrix algorithm...
-Loading content bulk...
-MAKE INACTIVE
-MAKE INACTIVE
-Awaiting content slices...
-Content Matrix took 17293ms. Details:
-Slices: 60
-Bulk:Total bulk size 550 items
-Reportables.NewsItemData size 439 items
-Reportables.Data.AdData size 111 items
-The referenced script (UI.ContentToPreferredSizePreview) on this Behaviour is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-The referenced script on this Behaviour (Game Object 'Employee Line Display Canvas') is missing!
-Rewarding 33100 of Sales
-Rewarding 21 of Influence Points
-Rewarding 4965 of Money
-Rewarding 1 of Perception
-Paying monthly expense for April: -2997.5
-Awaiting content matrix algorithm result...
-Content matrix algorithm finished!
-Area Map Recap: DoSequence
-RECAP DEACTIVATE
-Confirm button enable
-Start Playback
-End Playback
-Paying out entry!
-Map reward payout, skill unlock: Illustrator
-Map reward payout, skill unlock: Photo Processor
-Map reward payout, skill unlock: Engraver
-Map reward payout, buildable unlock: Illustrator Desk Unlock Pair (Stock: -1, Unlock Mode: Set)
-Map reward payout, buildable unlock: Repro Camera Unlock Pair (Stock: -1, Unlock Mode: Set)
-Map reward payout, buildable unlock: Chemical Engraver Unlock Pair (Stock: -1, Unlock Mode: Set)
-Paying out entry!
-Map reward payout, buildable unlock: Large Plant Unlock Pair (Stock: -1, Unlock Mode: Set)
-Paying out entry!
-Map reward payout, buildable unlock: Hanging Clock Unlock Pair (Stock: -1, Unlock Mode: Set)
-Set mode to OptionsMenu
-Set mode to Printing
-IAreaMapRecapEnd
-Setting pending quest at row 1
-Spawned reportableDress to impress  at Monday 00:00, May
-Content Bulk: Released 550 items of unused content
-Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
-*** Generated 12 new applicants
-Set game shuffle from: Newstower8_Mid to Newstower3_Low
-Set mode to GameShuffle
-Print window start: Sunday 00:00, May end: Sunday 23:59, May
-LastChanceToPrintEvent at Sunday 23:59, May
-AutoSave event at Sunday 23:59, May
-Success sequence done
-Remaining lockers:
-[--Full State--]
-(DisableOnPause, NoSave)
+Spawned reportable{lost} Form Troubles Club at Monday 00:24, April
+Story file completed at Monday 11:54, April
+Story file completed at Monday 17:06, April
+Spawned reportable{entertainmentDescription} {artisticExpression} {show} Tour! at Monday 17:10, April
+[Error  :XUnity.AutoTranslator] Batch operation received incorrect number of translations.
+[Error  :XUnity.AutoTranslator] Failed: 'Cannot sell this employee's desk while working on a story file.
+Wait until the story file is completed or unassign the employee
+from the storyfile.
 
-[--Handlers--]
-TowerTime:
-()
-Confirm button disable
-MACRO UNLOADED: Illustrator - Build Desk
-Story file completed at Monday 14:07, May
-Instructor InstructorFramework.AssignInstructor has stopped, success: True
-MACRO UNLOADED: Illustrator - Assign
-MACRO UNLOADED: Illustrator - Guide
-Spawned reportableFamous Artwork Stolen from Museum at Tuesday 05:45, May
+(Locked)'
+[Error  :XUnity.AutoTranslator] Failed: 'These tickets are pricey!'
+[Error  :XUnity.AutoTranslator] Failed: 'Nations leading Airway'
+[Error  :XUnity.AutoTranslator] Failed: 'Fly like royalty would'
+[Error  :XUnity.AutoTranslator] Failed: 'FOR PROGRAMS AND NEWS EVERY DAY'
+[Error  :XUnity.AutoTranslator] Failed: 'MORE FAMILIES GATHER TO TUNE'
+[Error  :XUnity.AutoTranslator] Failed: 'Hope I'm Not Out of a Job!'
+[Error  :XUnity.AutoTranslator] Failed: 'HOUSEHOLD NECESSITY'
+[Error  :XUnity.AutoTranslator] Failed: 'RADIO BECOMING'
+[Error  :XUnity.AutoTranslator] Failed: 'RADIO BECOMING HOUSEHOLD NECESSITY'
+[Error  :XUnity.AutoTranslator] A batch operation failed. Disabling batching and restarting failed jobs.
+Story file completed at Monday 18:59, April
+Story file completed at Monday 22:27, April
+Story file completed at Monday 23:06, April
+Finalize complete
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Spawned reportableGangland Bloodbath Rocks City Streets at Tuesday 02:59, April
 Confirm button enable
 Confirm button disable
-[Debug  :XUnity.AutoTranslator] Closing connections to endpoint 'https://translate.google.com:443' due to inactivity.
-Story file completed at Tuesday 16:44, May
-Story file completed at Tuesday 18:17, May
-Spawned reportableEducation and the church at Wednesday 06:50, May
-Story file completed at Wednesday 09:16, May
-Story file completed at Wednesday 23:11, May
-Story file completed at Wednesday 23:19, May
-Spawned reportable{spawnLocation} {mainSport} Unfit at Thursday 05:43, May
-Set game shuffle from: Newstower3_Low to Newstower3_Mid
-Story file completed at Thursday 22:46, May
-Spawned reportableSenate Stalemate: Economic Gridlock at Saturday 00:41, May
-Story file completed at Saturday 13:52, May
-Story file completed at Saturday 17:11, May
-Spawned reportableFished up cold case at Sunday 00:11, May
-Finalize complete
-Story file completed at Sunday 08:51, May
-Story file completed at Sunday 16:47, May
-Spawned reportableDanger or Food at Sunday 18:17, May
-Autosave entry was found
-Auto save  game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef.nta
-ON LAST CHANCE TO PRINT
-Last chance window begin
-Finalize complete
-Already auto saved for period May
-ON WINDOW END
-Handling success sequence 55
-Set mode to Printing
-Warning: No content matches found for Macros.MacroBaseData with labels System.String[]
-Devlivery complete
-StartOfMonthEvent at Monday 00:00, June
-EndOfMonthEvent at Sunday 23:59, June
-Content Bulk: Released 0 items of unused content
-World news count: 0
-STOPPING QUEST _Game.Quests.HotTopicsQuest
-KERNEL RESIZE!
-Starting content matrix algorithm...
-Loading content bulk...
-MAKE INACTIVE
-MAKE INACTIVE
-Awaiting content slices...
-Content Matrix took 17105ms. Details:
-Slices: 63
-Bulk:Total bulk size 548 items
-Reportables.NewsItemData size 437 items
-Reportables.Data.AdData size 111 items
-Rewarding 14100 of Sales
-Rewarding 2 of Influence Points
-Rewarding 2115 of Money
-Rewarding 1 of Perception
-Paying monthly expense for May: -3097.5
-Awaiting content matrix algorithm result...
-Content matrix algorithm finished!
-Area Map Recap: DoSequence
-RECAP DEACTIVATE
-Confirm button enable
-Start Playback
-End Playback
-IAreaMapRecapEnd
-Setting pending quest at row 1
-Content Bulk: Released 548 items of unused content
-Warning: No content matches found for Hiring.ApplicantData with labels System.String[]
-*** Generated 12 new applicants
-Set game shuffle from: Newstower3_Mid to Newstower11_Low
-Set mode to GameShuffle
-Print window start: Sunday 00:00, June end: Sunday 23:59, June
-AutoSave event at Sunday 23:59, June
-LastChanceToPrintEvent at Sunday 23:59, June
-Success sequence done
-Remaining lockers:
-[--Full State--]
-(DisableOnPause, NoSave)
-
-[--Handlers--]
-TowerTime:
-()
-Confirm button disable
+[Info   :XUnity.AutoTranslator] Re-enabled batching.
+Story file completed at Tuesday 13:44, April
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
+Story file completed at Tuesday 18:42, April
+Story file completed at Tuesday 19:41, April
+Instructor InstructorFramework.Macros.ExplainTeasedSkillStoryFileInstructor has stopped, success: False
 Set mode to OptionsMenu
 Updated SaveGameManager.DisplayName
 save game (0861c1a2-0383-4287-a16d-6c0289a0c9ef) written to C:/Users/john lee/AppData/LocalLow/Sparrow Night/News Tower\0861c1a2-0383-4287-a16d-6c0289a0c9ef-1.nt
-Set game shuffle from: Newstower11_Low to Newstower8_Low
+Set game shuffle from: Newstower8_Low to Newstower3_Low
 Set mode to GameShuffle
 Set mode to OptionsMenu
-Guide unload: inloading bullet macro Build Graphic Chain - Build Repro Cam from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Build Graphic Chain - Assign Repro Cam from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Build Graphic Chain - Build Chemical Engraver from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Build Graphic Chain - Assign Chemical Engraver from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Order Coal from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Power Fail - Explain And Unlock Generator And Industrial Wallpaper from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Photographer - Build Desk from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Photographer - Assign from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Photographer - Build Darkroom from guide macro because it wasn't unloaded yet.
-Guide unload: inloading bullet macro Photographer - Assign Darkroom from guide macro because it wasn't unloaded yet.
 Guide unload: inloading bullet macro Cartographer - Build Desk from guide macro because it wasn't unloaded yet.
 Guide unload: inloading bullet macro Cartographer - Assign from guide macro because it wasn't unloaded yet.
-Set game shuffle from: Newstower8_Low to Newstower3_Low
+Set game shuffle from: Newstower3_Low to Newstower11_Low
 Set mode to GameShuffle
 Set mode to IntroMenu
 Unloading 1 Unused Serialized files (Serialized files now loaded: 12)
-UnloadTime: 438.702000 ms
+UnloadTime: 926.362100 ms
 Request https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg
-Unloading 7345 unused Assets to reduce memory usage. Loaded Objects now: 79769.
-Total: 151.602200 ms (FindLiveObjects: 9.756200 ms CreateObjectMapping: 13.185800 ms MarkObjects: 110.105200 ms  DeleteObjects: 18.554400 ms)
+Unloading 8799 unused Assets to reduce memory usage. Loaded Objects now: 86581.
+Total: 241.544100 ms (FindLiveObjects: 23.675500 ms CreateObjectMapping: 13.118400 ms MarkObjects: 177.185400 ms  DeleteObjects: 27.564100 ms)
 
 Handling https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg
 Loaded https://clan.akamai.steamstatic.com/images/40684736/c8f4e9572dde05273472b4499b6aff3152442880_960x311.jpg from file cache
 Setting up 5 worker threads for Enlighten.
-Curl error 42: Callback aborted
 Memory Statistics:
 [ALLOC_TEMP_TLS] TLS Allocator
   StackAllocators : 
     [ALLOC_TEMP_MAIN]
-      Peak usage frame count: [0-1.0 KB]: 24919 frames, [1.0 KB-2.0 KB]: 2251 frames, [2.0 KB-4.0 KB]: 1694 frames, [4.0 KB-8.0 KB]: 15 frames, [8.0 KB-16.0 KB]: 10389 frames, [16.0 KB-32.0 KB]: 469 frames, [32.0 KB-64.0 KB]: 5 frames, [64.0 KB-128.0 KB]: 6 frames, [128.0 KB-256.0 KB]: 87817 frames, [256.0 KB-0.5 MB]: 215936 frames, [0.5 MB-1.0 MB]: 24 frames, [1.0 MB-2.0 MB]: 1 frames, [4.0 MB-8.0 MB]: 6 frames
+      Peak usage frame count: [0-1.0 KB]: 18379 frames, [1.0 KB-2.0 KB]: 2446 frames, [2.0 KB-4.0 KB]: 2935 frames, [4.0 KB-8.0 KB]: 10 frames, [8.0 KB-16.0 KB]: 6915 frames, [16.0 KB-32.0 KB]: 1430 frames, [32.0 KB-64.0 KB]: 7 frames, [64.0 KB-128.0 KB]: 3 frames, [128.0 KB-256.0 KB]: 54491 frames, [256.0 KB-0.5 MB]: 240173 frames, [0.5 MB-1.0 MB]: 219294 frames, [1.0 MB-2.0 MB]: 25 frames, [4.0 MB-8.0 MB]: 4 frames
       Initial Block Size 4.0 MB
-      Current Block Size 7.9 MB
-      Peak Allocated Bytes 7.9 MB
-      Overflow Count 44
+      Current Block Size 7.8 MB
+      Peak Allocated Bytes 7.8 MB
+      Overflow Count 17
     [ALLOC_TEMP_Job.Worker 18]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 111.8 KB
+      Peak Allocated Bytes 108.9 KB
       Overflow Count 0
     [ALLOC_TEMP_Loading.PreloadManager]
       Initial Block Size 256.0 KB
       Current Block Size 0.5 MB
       Peak Allocated Bytes 511.9 KB
-      Overflow Count 62715391
+      Overflow Count 49311380
     [ALLOC_TEMP_Background Job.Worker 8]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.7 KB
+      Peak Allocated Bytes 54 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 10]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.7 KB
+      Peak Allocated Bytes 369 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 16]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 115.5 KB
+      Peak Allocated Bytes 108.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 6]
       Initial Block Size 32.0 KB
@@ -1784,23 +1981,23 @@ Memory Statistics:
       Overflow Count 1
     [ALLOC_TEMP_Job.Worker 4]
       Initial Block Size 256.0 KB
-      Current Block Size 380.0 KB
-      Peak Allocated Bytes 279.6 KB
-      Overflow Count 0
-    [ALLOC_TEMP_Job.Worker 17]
-      Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 113.5 KB
+      Peak Allocated Bytes 109.1 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 14]
       Initial Block Size 256.0 KB
-      Current Block Size 380.0 KB
-      Peak Allocated Bytes 279.6 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 117.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 17]
+      Initial Block Size 256.0 KB
+      Current Block Size 396.0 KB
+      Peak Allocated Bytes 282.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 3]
       Initial Block Size 256.0 KB
-      Current Block Size 384.0 KB
-      Peak Allocated Bytes 280.6 KB
+      Current Block Size 396.0 KB
+      Peak Allocated Bytes 282.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 12]
       Initial Block Size 32.0 KB
@@ -1810,7 +2007,7 @@ Memory Statistics:
     [ALLOC_TEMP_Background Job.Worker 1]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.7 KB
+      Peak Allocated Bytes 183 B
       Overflow Count 0
     [ALLOC_TEMP_AssetGarbageCollectorHelper] x 19
       Initial Block Size 64.0 KB
@@ -1820,7 +2017,7 @@ Memory Statistics:
     [ALLOC_TEMP_Background Job.Worker 5]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.7 KB
+      Peak Allocated Bytes 183 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 13]
       Initial Block Size 32.0 KB
@@ -1830,18 +2027,18 @@ Memory Statistics:
     [ALLOC_TEMP_Background Job.Worker 11]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.7 KB
+      Peak Allocated Bytes 183 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 2]
       Initial Block Size 256.0 KB
-      Current Block Size 384.0 KB
-      Peak Allocated Bytes 280.6 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 110.0 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 3]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.7 KB
-      Overflow Count 2
+      Peak Allocated Bytes 0.5 KB
+      Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 0]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
@@ -1855,7 +2052,7 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 11]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 96.6 KB
+      Peak Allocated Bytes 108.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 4]
       Initial Block Size 32.0 KB
@@ -1870,32 +2067,32 @@ Memory Statistics:
     [ALLOC_TEMP_Job.Worker 6]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 97.0 KB
+      Peak Allocated Bytes 108.9 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 0]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 96.6 KB
+      Peak Allocated Bytes 110.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 9]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.7 KB
+      Peak Allocated Bytes 183 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 5]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 112.3 KB
+      Peak Allocated Bytes 110.9 KB
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 14]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.7 KB
+      Peak Allocated Bytes 54 B
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 13]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 113.2 KB
+      Peak Allocated Bytes 108.5 KB
       Overflow Count 0
     [ALLOC_TEMP_EnlightenWorker] x 5
       Initial Block Size 64.0 KB
@@ -1905,57 +2102,57 @@ Memory Statistics:
     [ALLOC_TEMP_Background Job.Worker 15]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.7 KB
+      Peak Allocated Bytes 183 B
       Overflow Count 0
     [ALLOC_TEMP_Background Job.Worker 2]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.7 KB
-      Overflow Count 0
+      Peak Allocated Bytes 0.5 KB
+      Overflow Count 2
     [ALLOC_TEMP_Background Job.Worker 7]
       Initial Block Size 32.0 KB
       Current Block Size 32.0 KB
-      Peak Allocated Bytes 1.7 KB
+      Peak Allocated Bytes 183 B
       Overflow Count 0
     [ALLOC_TEMP_UnityGfxDeviceWorker]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 35.6 KB
+      Peak Allocated Bytes 35.5 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 9]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 112.1 KB
+      Peak Allocated Bytes 107.2 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 8]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 109.9 KB
+      Peak Allocated Bytes 110.9 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 7]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 114.1 KB
+      Peak Allocated Bytes 107.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 1]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 104.2 KB
+      Peak Allocated Bytes 109.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 10]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 113.8 KB
+      Peak Allocated Bytes 107.2 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 15]
       Initial Block Size 256.0 KB
       Current Block Size 256.0 KB
-      Peak Allocated Bytes 115.2 KB
+      Peak Allocated Bytes 111.8 KB
       Overflow Count 0
     [ALLOC_TEMP_Job.Worker 12]
       Initial Block Size 256.0 KB
-      Current Block Size 384.0 KB
-      Peak Allocated Bytes 280.6 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 111.7 KB
       Overflow Count 0
     [ALLOC_TEMP_Loading.AsyncRead]
       Initial Block Size 64.0 KB
@@ -1963,28 +2160,28 @@ Memory Statistics:
       Peak Allocated Bytes 88.3 KB
       Overflow Count 0
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 33078
+  Peak main deferred allocation count 49482
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 15 Subsections = 15360 buckets. Failed count: 11540183
-        32B: 22 Subsections = 11264 buckets. Failed count: 7250877
-        48B: 25 Subsections = 8533 buckets. Failed count: 206842512
-        64B: 113 Subsections = 28928 buckets. Failed count: 290330
-        80B: 36 Subsections = 7372 buckets. Failed count: 896567
-        96B: 16 Subsections = 2730 buckets. Failed count: 58745
-        112B: 19 Subsections = 2779 buckets. Failed count: 1593559
-        128B: 10 Subsections = 1280 buckets. Failed count: 294302
+        16B: 15 Subsections = 15360 buckets. Failed count: 18442137
+        32B: 22 Subsections = 11264 buckets. Failed count: 11517765
+        48B: 25 Subsections = 8533 buckets. Failed count: 424108490
+        64B: 113 Subsections = 28928 buckets. Failed count: 475092
+        80B: 36 Subsections = 7372 buckets. Failed count: 1129536
+        96B: 16 Subsections = 2730 buckets. Failed count: 81005
+        112B: 19 Subsections = 2779 buckets. Failed count: 5167115
+        128B: 10 Subsections = 1280 buckets. Failed count: 456011
     [ALLOC_DEFAULT_MAIN]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 2 frames, [16.0 MB-32.0 MB]: 25892 frames, [32.0 MB-64.0 MB]: 21312 frames, [64.0 MB-128.0 MB]: 295945 frames, [128.0 MB-256.0 MB]: 381 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 23762 frames, [32.0 MB-64.0 MB]: 88 frames, [64.0 MB-128.0 MB]: 364551 frames, [128.0 MB-256.0 MB]: 157711 frames
       Requested Block Size 16.0 MB
       Peak Block count 9
-      Peak Allocated memory 148.0 MB
+      Peak Allocated memory 157.0 MB
       Peak Large allocation bytes 64.0 MB
     [ALLOC_DEFAULT_THREAD]
-      Peak usage frame count: [16.0 MB-32.0 MB]: 23317 frames, [32.0 MB-64.0 MB]: 191349 frames, [64.0 MB-128.0 MB]: 115094 frames, [128.0 MB-256.0 MB]: 2818 frames, [256.0 MB-0.50 GB]: 5394 frames, [0.50 GB-1.00 GB]: 5263 frames, [1.00 GB-2.00 GB]: 297 frames
+      Peak usage frame count: [16.0 MB-32.0 MB]: 18310 frames, [32.0 MB-64.0 MB]: 410132 frames, [64.0 MB-128.0 MB]: 105443 frames, [128.0 MB-256.0 MB]: 5702 frames, [256.0 MB-0.50 GB]: 4696 frames, [0.50 GB-1.00 GB]: 1579 frames, [1.00 GB-2.00 GB]: 250 frames
       Requested Block Size 16.0 MB
       Peak Block count 75
       Peak Allocated memory 1.10 GB
@@ -2001,67 +2198,67 @@ Memory Statistics:
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
   Initial Block Size 2.0 MB
-  Used Block Count 6
+  Used Block Count 7
   Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_ASYNC (Background)]
   Initial Block Size 1.0 MB
-  Used Block Count 6
+  Used Block Count 11
   Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 112
+  Peak main deferred allocation count 152
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 15 Subsections = 15360 buckets. Failed count: 11540183
-        32B: 22 Subsections = 11264 buckets. Failed count: 7250877
-        48B: 25 Subsections = 8533 buckets. Failed count: 206842512
-        64B: 113 Subsections = 28928 buckets. Failed count: 290330
-        80B: 36 Subsections = 7372 buckets. Failed count: 896567
-        96B: 16 Subsections = 2730 buckets. Failed count: 58745
-        112B: 19 Subsections = 2779 buckets. Failed count: 1593559
-        128B: 10 Subsections = 1280 buckets. Failed count: 294302
+        16B: 15 Subsections = 15360 buckets. Failed count: 18442137
+        32B: 22 Subsections = 11264 buckets. Failed count: 11517765
+        48B: 25 Subsections = 8533 buckets. Failed count: 424108490
+        64B: 113 Subsections = 28928 buckets. Failed count: 475092
+        80B: 36 Subsections = 7372 buckets. Failed count: 1129536
+        96B: 16 Subsections = 2730 buckets. Failed count: 81005
+        112B: 19 Subsections = 2779 buckets. Failed count: 5167115
+        128B: 10 Subsections = 1280 buckets. Failed count: 456011
     [ALLOC_GFX_MAIN]
-      Peak usage frame count: [32.0 KB-64.0 KB]: 22248 frames, [64.0 KB-128.0 KB]: 2684 frames, [128.0 KB-256.0 KB]: 209 frames, [256.0 KB-0.5 MB]: 3039 frames, [0.5 MB-1.0 MB]: 724 frames, [1.0 MB-2.0 MB]: 43446 frames, [2.0 MB-4.0 MB]: 240823 frames, [4.0 MB-8.0 MB]: 30359 frames
+      Peak usage frame count: [32.0 KB-64.0 KB]: 18263 frames, [64.0 KB-128.0 KB]: 126 frames, [128.0 KB-256.0 KB]: 4356 frames, [256.0 KB-0.5 MB]: 144 frames, [0.5 MB-1.0 MB]: 961 frames, [1.0 MB-2.0 MB]: 8364 frames, [2.0 MB-4.0 MB]: 191557 frames, [4.0 MB-8.0 MB]: 322341 frames
       Requested Block Size 16.0 MB
       Peak Block count 1
-      Peak Allocated memory 5.1 MB
+      Peak Allocated memory 7.2 MB
       Peak Large allocation bytes 0 B
     [ALLOC_GFX_THREAD]
-      Peak usage frame count: [1.0 MB-2.0 MB]: 21535 frames, [2.0 MB-4.0 MB]: 199 frames, [4.0 MB-8.0 MB]: 263 frames, [8.0 MB-16.0 MB]: 1136 frames, [64.0 MB-128.0 MB]: 287 frames, [128.0 MB-256.0 MB]: 122 frames, [256.0 MB-0.50 GB]: 453 frames, [0.50 GB-1.00 GB]: 23811 frames, [1.00 GB-2.00 GB]: 295726 frames
+      Peak usage frame count: [1.0 MB-2.0 MB]: 18230 frames, [2.0 MB-4.0 MB]: 8 frames, [4.0 MB-8.0 MB]: 11 frames, [8.0 MB-16.0 MB]: 30 frames, [16.0 MB-32.0 MB]: 1 frames, [64.0 MB-128.0 MB]: 9 frames, [128.0 MB-256.0 MB]: 32 frames, [256.0 MB-0.50 GB]: 16 frames, [0.50 GB-1.00 GB]: 72999 frames, [1.00 GB-2.00 GB]: 454776 frames
       Requested Block Size 16.0 MB
       Peak Block count 24
       Peak Allocated memory 1.15 GB
       Peak Large allocation bytes 0.78 GB
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 1266
+  Peak main deferred allocation count 1867
     [ALLOC_BUCKET]
       Large Block size 4.0 MB
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 15 Subsections = 15360 buckets. Failed count: 11540183
-        32B: 22 Subsections = 11264 buckets. Failed count: 7250877
-        48B: 25 Subsections = 8533 buckets. Failed count: 206842512
-        64B: 113 Subsections = 28928 buckets. Failed count: 290330
-        80B: 36 Subsections = 7372 buckets. Failed count: 896567
-        96B: 16 Subsections = 2730 buckets. Failed count: 58745
-        112B: 19 Subsections = 2779 buckets. Failed count: 1593559
-        128B: 10 Subsections = 1280 buckets. Failed count: 294302
+        16B: 15 Subsections = 15360 buckets. Failed count: 18442137
+        32B: 22 Subsections = 11264 buckets. Failed count: 11517765
+        48B: 25 Subsections = 8533 buckets. Failed count: 424108490
+        64B: 113 Subsections = 28928 buckets. Failed count: 475092
+        80B: 36 Subsections = 7372 buckets. Failed count: 1129536
+        96B: 16 Subsections = 2730 buckets. Failed count: 81005
+        112B: 19 Subsections = 2779 buckets. Failed count: 5167115
+        128B: 10 Subsections = 1280 buckets. Failed count: 456011
     [ALLOC_CACHEOBJECTS_MAIN]
-      Peak usage frame count: [8.0 MB-16.0 MB]: 25399 frames, [16.0 MB-32.0 MB]: 314090 frames, [32.0 MB-64.0 MB]: 4043 frames
+      Peak usage frame count: [8.0 MB-16.0 MB]: 21199 frames, [16.0 MB-32.0 MB]: 523375 frames, [32.0 MB-64.0 MB]: 1538 frames
       Requested Block Size 4.0 MB
-      Peak Block count 12
-      Peak Allocated memory 45.2 MB
+      Peak Block count 13
+      Peak Allocated memory 47.1 MB
       Peak Large allocation bytes 7.9 MB
     [ALLOC_CACHEOBJECTS_THREAD]
-      Peak usage frame count: [256.0 KB-0.5 MB]: 21 frames, [0.5 MB-1.0 MB]: 3 frames, [1.0 MB-2.0 MB]: 21 frames, [2.0 MB-4.0 MB]: 7 frames, [32.0 MB-64.0 MB]: 2752 frames, [64.0 MB-128.0 MB]: 3626 frames, [128.0 MB-256.0 MB]: 337102 frames
+      Peak usage frame count: [256.0 KB-0.5 MB]: 16 frames, [0.5 MB-1.0 MB]: 1 frames, [1.0 MB-2.0 MB]: 17 frames, [2.0 MB-4.0 MB]: 3 frames, [32.0 MB-64.0 MB]: 1644 frames, [64.0 MB-128.0 MB]: 3921 frames, [128.0 MB-256.0 MB]: 540510 frames
       Requested Block Size 4.0 MB
-      Peak Block count 28
-      Peak Allocated memory 232.7 MB
+      Peak Block count 25
+      Peak Allocated memory 224.5 MB
       Peak Large allocation bytes 154.1 MB
 [ALLOC_TYPETREE] Dual Thread Allocator
   Peak main deferred allocation count 0
@@ -2070,22 +2267,22 @@ Memory Statistics:
       Used Block count 1
       Peak Allocated bytes 4.0 MB
       Failed Allocations. Bucket layout:
-        16B: 15 Subsections = 15360 buckets. Failed count: 11540183
-        32B: 22 Subsections = 11264 buckets. Failed count: 7250877
-        48B: 25 Subsections = 8533 buckets. Failed count: 206842512
-        64B: 113 Subsections = 28928 buckets. Failed count: 290330
-        80B: 36 Subsections = 7372 buckets. Failed count: 896567
-        96B: 16 Subsections = 2730 buckets. Failed count: 58745
-        112B: 19 Subsections = 2779 buckets. Failed count: 1593559
-        128B: 10 Subsections = 1280 buckets. Failed count: 294302
+        16B: 15 Subsections = 15360 buckets. Failed count: 18442137
+        32B: 22 Subsections = 11264 buckets. Failed count: 11517765
+        48B: 25 Subsections = 8533 buckets. Failed count: 424108490
+        64B: 113 Subsections = 28928 buckets. Failed count: 475092
+        80B: 36 Subsections = 7372 buckets. Failed count: 1129536
+        96B: 16 Subsections = 2730 buckets. Failed count: 81005
+        112B: 19 Subsections = 2779 buckets. Failed count: 5167115
+        128B: 10 Subsections = 1280 buckets. Failed count: 456011
     [ALLOC_TYPETREE_MAIN]
-      Peak usage frame count: [128.0 KB-256.0 KB]: 18636 frames, [256.0 KB-0.5 MB]: 324896 frames
+      Peak usage frame count: [128.0 KB-256.0 KB]: 4220 frames, [256.0 KB-0.5 MB]: 541892 frames
       Requested Block Size 2.0 MB
       Peak Block count 1
-      Peak Allocated memory 291.9 KB
+      Peak Allocated memory 291.6 KB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
-      Peak usage frame count: [1.0 KB-2.0 KB]: 19 frames, [64.0 KB-128.0 KB]: 5 frames, [128.0 KB-256.0 KB]: 6233 frames, [0.5 MB-1.0 MB]: 1 frames, [1.0 MB-2.0 MB]: 3 frames, [2.0 MB-4.0 MB]: 8349 frames, [4.0 MB-8.0 MB]: 9238 frames, [8.0 MB-16.0 MB]: 319684 frames
+      Peak usage frame count: [1.0 KB-2.0 KB]: 16 frames, [64.0 KB-128.0 KB]: 12 frames, [128.0 KB-256.0 KB]: 5276 frames, [256.0 KB-0.5 MB]: 1 frames, [0.5 MB-1.0 MB]: 3 frames, [1.0 MB-2.0 MB]: 4 frames, [2.0 MB-4.0 MB]: 12686 frames, [4.0 MB-8.0 MB]: 330 frames, [8.0 MB-16.0 MB]: 527784 frames
       Requested Block Size 2.0 MB
       Peak Block count 6
       Peak Allocated memory 10.6 MB
